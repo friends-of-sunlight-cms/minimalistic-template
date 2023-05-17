@@ -1,0 +1,116 @@
+﻿/* survey */
+ .poll {
+	 width: 100%;
+	 margin-top: 0;
+	 margin-bottom: 6px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ .poll-content, .poll-content form {
+	 width: 100%;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ .poll-question {
+	 color: #004080;
+	 text-align: left;
+	 width: 100%;
+	 padding-top: 5px;
+	 padding-bottom: 10px;
+	 padding-left: 0;
+	 padding-right: 0;
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ .poll-question div {
+	 font-size: 9px;
+}
+ .poll-answer {
+	 width: 100%;
+	 padding-top: 0;
+	 padding-bottom: 7px;
+	 padding-left: 0;
+	 padding-right: 0;
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ .poll-answer input {
+}
+ .poll-answer div {
+	 background-color: rgb(83, 166, 123);
+	 background-image: linear-gradient(to bottom, rgb(142, 219, 68), rgb(122, 186, 59), rgb(83, 166, 123));
+	 background-repeat: repeat;
+	 background-attachment: scroll;
+	 background-clip: border-box;
+	 background-origin: padding-box;
+	 background-position-x: 0%;
+	 background-position-y: 0%;
+	 background-size: auto auto;
+	 height: 5px;
+	 margin-top: 4px;
+	 margin-bottom: 2px;
+	 margin-left: 0;
+	 margin-right: 2px;
+	 border-top-width: 0;
+	 border-bottom-width: 0;
+	 border-left-width: 2px;
+	 border-right-width: 2px;
+	 border-top-style: none;
+	 border-bottom-style: none;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-top-color: currentcolor;
+	 border-bottom-color: currentcolor;
+	 border-left-color: rgb(69, 69, 69);
+	 border-right-color: rgb(69, 69, 69);
+}
+ .poll-answer .votebutton {
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ .box-item .poll-answer .votebutton {
+	 width: 100%;
+	 padding-top: 7px;
+	 padding-bottom: 7px;
+	 padding-left: 7px;
+	 padding-right: 7px;
+	 margin-top: 2px;
+	 margin-bottom: 6px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 float: left;
+	 clear: both;
+	 display: inline-block;
+}
+ @media only screen and (max-width:470px) {
+	 .poll-answer {
+		 width: 100%;
+		 float: left;
+		 display: inline-block;
+	}
+	 .poll-answer label {
+		 width: 100%;
+		 margin-top: 0;
+		 margin-bottom: 0;
+		 margin-left: auto;
+		 margin-right: auto;
+		 float: left;
+		 display: inline-block;
+	}
+	 .poll-answer div {
+		 float: left;
+		 display: inline-block;
+	}
+}
+/* survey - end */

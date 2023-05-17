@@ -1,0 +1,70 @@
+﻿/* galery */
+ .gallery-hr {
+	 background-color: transparent;
+	 background-image: url("images/system/hr.png");
+	 background-repeat: no-repeat;
+	 background-attachment: scroll;
+	 background-clip: border-box;
+	 background-origin: padding-box;
+	 background-position-x: center;
+	 background-position-y: center;
+	 background-size: auto auto;
+	 width: 100%;
+	 min-width: 20px;
+	 height: 50px;
+}
+ .gallery {
+	 text-align: left;
+	 min-width: 100px;
+	 margin-top: 5px;
+	 margin-bottom: 5px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 float: left;
+	 display: block;
+}
+ .gallery img {
+	 background-color: rgb(255, 255, 255);
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 padding-left: 1px;
+	 padding-right: 1px;
+	 box-shadow: 0 2px 4px rgba(150, 150, 150, 0.9);
+}
+ .gallery img:hover {
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 padding-left: 1px;
+	 padding-right: 1px;
+	 box-shadow: 0 2px 4px rgba(100, 100, 100, 0.9);
+}
+ .gallery a.lightbox {
+	 color: #0E3672;
+	 font-size: 15px;
+	 height: 100%;
+	 padding-top: 3px;
+	 padding-bottom: 3px;
+	 padding-left: 3px;
+	 padding-right: 3px;
+	 margin-top: 3px;
+	 margin-bottom: 3px;
+	 margin-left: 3px;
+	 margin-right: 3px;
+	 float: left;
+}
+ .gallery a.lightbox img {
+	 background-color: rgb(255, 255, 255);
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 padding-left: 1px;
+	 padding-right: 1px;
+	 box-shadow: 0 2px 4px rgba(150, 150, 150, 0.9);
+}
+ .gallery a.lightbox img:hover {
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 padding-left: 1px;
+	 padding-right: 1px;
+	 box-shadow: 0 2px 4px rgba(100, 100, 100, 0.9);
+}
+/* galery - end */

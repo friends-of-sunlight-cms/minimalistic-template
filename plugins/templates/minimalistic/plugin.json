@@ -1,0 +1,73 @@
+{
+"$schema": "../../../system/schema/template.json",
+"name": "Basic-Motive-Minimalize",
+"description": "Type Blog - Testing",
+"version": "8.0",
+"url": "http://www.test-template.jednoduse.cz/",
+"responsive": true,
+"environment": {
+"system": "^8.0"
+},
+"layouts": {
+"default": {
+"template": "layouts/default.php"
+},
+"column_left": {
+"template": "layouts/cl.php",
+"slots": ["left"]
+},
+"column_left_cb": {
+"template": "layouts/cl-cb.php",
+"slots": ["left"]
+},
+"column_right": {
+"template": "layouts/cr.php",
+"slots": ["right"]
+},
+"column_right_cb": {
+"template": "layouts/cr-cb.php",
+"slots": ["right"]
+},
+"full_column_left": {
+"template": "layouts/full-cl.php",
+"slots": ["left"]
+},
+"full_column_left_cb": {
+"template": "layouts/full-cl-cb.php",
+"slots": ["left"]
+},
+"full_column_right": {
+"template": "layouts/full-cr.php",
+"slots": ["right"]
+},
+"full_column_right_cb": {
+"template": "layouts/full-cr-cb.php",
+"slots": ["right"]
+}
+},
+"css": [
+"resources/blog.css",
+"resources/buttons.css",
+"resources/category.css",
+"resources/font.css",
+"resources/form.css",
+"resources/gallery.css",
+"resources/internal-hcm.css",
+"resources/login.css",
+"resources/menu.css",
+"resources/messages.css",
+"resources/posts.css",
+"resources/profile.css",
+"resources/sbox.css",
+"resources/search.css",
+"resources/survey.css",
+"resources/system.css",
+"resources/ulist.css"
+],
+"dark": false,
+"bbcode.buttons": true,
+"box.parent": "div",
+"box.item": "div",
+"box.title": "h2",
+"box.title.inside": true
+}

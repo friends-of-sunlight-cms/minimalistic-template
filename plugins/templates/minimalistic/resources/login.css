@@ -1,0 +1,217 @@
+﻿/* login, registration, lost password */
+ .login_form, form.regform, form.lostpassform , form.fullsearchform {
+	 text-align: left;
+	 width: 100%;
+	 margin-top: 10px;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+	 float: left;
+	 display: inline-block;
+}
+ .login_form th {
+	 text-align: left !important;
+	 width: 200px !important;
+	 margin-top: 0 !important;
+	 margin-bottom: 0 !important;
+	 margin-left: 0 !important;
+	 margin-right: 5px !important;
+}
+ .login_form table, .regform table, .lostpassform table, .postform table, .m-messages table {
+	 background-color: rgb(246, 246, 247);
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 border-top-width: 1px;
+	 border-bottom-width: 1px;
+	 border-left-width: 1px;
+	 border-right-width: 1px;
+	 border-top-style: solid;
+	 border-bottom-style: solid;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-top-color: rgb(217, 217, 217);
+	 border-bottom-color: rgb(217, 217, 217);
+	 border-left-color: rgb(217, 217, 217);
+	 border-right-color: rgb(217, 217, 217);
+	 border-top-left-radius: 2px;
+	 border-top-right-radius: 2px;
+	 border-bottom-right-radius: 2px;
+	 border-bottom-left-radius: 2px;
+}
+ .m-reg .bborder, .m-lostpass .bborder {
+	 width: 100%;
+}
+ .login-form-links {
+	 background-color: rgb(244, 244, 244);
+	 list-style-type: none;
+	 list-style-image: none;
+	 list-style-position: outside;
+	 line-height: 110%;
+	 width: 100%;
+	 padding-top: 11px;
+	 padding-bottom: 11px;
+	 padding-left: 15px;
+	 padding-right: 15px;
+	 margin-top: 5px;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+	 border-top-width: 1px;
+	 border-bottom-width: 1px;
+	 border-left-width: 1px;
+	 border-right-width: 1px;
+	 border-top-style: solid;
+	 border-bottom-style: solid;
+	 border-left-style: solid;
+	 border-right-style: solid;
+	 border-top-color: rgb(216, 216, 216);
+	 border-bottom-color: rgb(216, 216, 216);
+	 border-left-color: rgb(216, 216, 216);
+	 border-right-color: rgb(216, 216, 216);
+	 border-top-left-radius: 2px;
+	 border-top-right-radius: 2px;
+	 border-bottom-right-radius: 2px;
+	 border-bottom-left-radius: 2px;
+	 float: left;
+	 display: inline-block;
+}
+ .login-form-links li, .m-login .login-form-links li {
+	 width: auto;
+	 height: auto;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 clear: both;
+	 float: left;
+	 display: block;
+}
+ .regform tr {
+	 text-align: left;
+}
+ .regform th {
+	 text-align: left;
+	 width: 200px;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 5px;
+}
+ .regform td .inputsmall {
+	 max-width: 9999px;
+	 width: 100%;
+}
+ .regform tr.valign-top, .regform td {
+	 text-align: left;
+	 text-overflow: ellipsis;
+	 overflow-x: hidden;
+	 overflow-y: hidden;
+}
+ .regform tr.valign-top h2 {
+	 background-color: rgb(230, 230, 230);
+	 color: #333333;
+	 font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	 font-size: 22px;
+	 font-weight: 100;
+	 padding-top: 8px;
+	 padding-bottom: 8px;
+	 padding-left: 8px;
+	 padding-right: 8px;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 border-top-width: 1px;
+	 border-bottom-width: 1px;
+	 border-left-width: 2px;
+	 border-right-width: 1px;
+	 border-top-style: dashed;
+	 border-bottom-style: dashed;
+	 border-left-style: solid;
+	 border-right-style: dashed;
+	 border-top-color: rgb(219, 219, 219);
+	 border-bottom-color: rgb(219, 219, 219);
+	 border-left-color: rgb(83, 166, 123);
+	 border-right-color: rgb(219, 219, 219);
+}
+ .lostpassform th {
+	 text-align: left;
+	 width: 200px;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 5px;
+}
+ .m-login p {
+	 text-align: left;
+	 width: 100%;
+	 margin-top: 0.5em;
+	 margin-bottom: 0.5em;
+	 margin-left: 0;
+	 margin-right: 0;
+	 clear: both;
+	 float: left;
+	 display: inline-block;
+}
+ .m-login h2 {
+	 width: 100%;
+	 clear: both;
+	 float: left;
+	 display: inline-block;
+}
+ .m-login em {
+	 color: #000000;
+	 font-weight: bold;
+}
+ .m-login ul {
+	 list-style-type: square;
+	 width: 100%;
+	 clear: both;
+	 float: left;
+	 display: inline-block;
+}
+ .m-login li {
+	 padding-top: 0;
+	 padding-bottom: 3px;
+	 padding-left: 0;
+	 padding-right: 0;
+}
+ @media only screen and (max-width:750px) {
+	 .login_form table, .login_form tbody, .login_form tr, .login_form td, .regform table, .regform tbody, .regform tr, .regform td, .lostpassform table, .lostpassform tbody, .lostpassform tr, .lostpassform td, .postform tbody, .postform tr, .postform td, .fullsearchform .inputmedium {
+		 text-align: left;
+		 width: 100%;
+		 float: left;
+		 display: inline-block;
+	}
+	 .login_form th, .regform th, .lostpassform th, .postform th, .m-messages th {
+		 padding-top: 0;
+		 padding-bottom: 5px;
+		 padding-left: 0;
+		 padding-right: 0;
+	}
+}
+ @media only screen and (max-width:470px) {
+	 .login-form-links {
+		 padding-top: 15px;
+		 padding-bottom: 15px;
+		 padding-left: 15px;
+		 padding-right: 15px;
+	}
+	 .login-form-links li {
+		 width: 100% !important;
+		 min-width: 0;
+		 display: inline-block;
+	}
+	 .regform p label {
+		 width: 100%;
+		 margin-top: 0;
+		 margin-bottom: 10px;
+		 margin-left: 0;
+		 margin-right: 0;
+		 float: left;
+		 display: inline-block;
+	}
+}
+/* login, registration, lost password - end */

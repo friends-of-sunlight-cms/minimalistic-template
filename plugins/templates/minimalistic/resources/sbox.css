@@ -1,0 +1,111 @@
+﻿/* sbox */
+ .sbox, .sbox-content {
+	 width: 100%;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 float: left;
+}
+ .sbox-title {
+	 color: #777777;
+}
+ .sbox-item {
+	 text-overflow: ellipsis;
+	 width: 100%;
+	 padding-top: 10px;
+	 padding-bottom: 10px;
+	 padding-left: 0;
+	 padding-right: 0;
+	 margin-top: 10px;
+	 margin-bottom: 10px;
+	 margin-left: 0;
+	 margin-right: 0;
+	 border-top-width: 1px;
+	 border-bottom-width: 0;
+	 border-left-width: 0;
+	 border-right-width: 0;
+	 border-top-style: solid;
+	 border-bottom-style: none;
+	 border-left-style: none;
+	 border-right-style: none;
+	 border-top-color: rgb(153, 153, 153);
+	 border-bottom-color: currentcolor;
+	 border-left-color: currentcolor;
+	 border-right-color: currentcolor;
+	 overflow-x: hidden;
+	 overflow-y: auto;
+	 float: left;
+}
+ .sbox-item .icon {
+	 width: 14px;
+	 height: 14px;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 1px;
+	 margin-right: 5px;
+}
+ .sbox-posts {
+	 width: 100%;
+	 height: 150px;
+	 overflow-x: hidden;
+	 overflow-y: auto;
+	 float: left;
+}
+ .sbox form {
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+}
+ .sbox table {
+	 width: 100%;
+	 padding-top: 0;
+	 padding-bottom: 0;
+	 padding-left: 0;
+	 padding-right: 0;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+}
+ .sbox tr {
+	 width: 100%;
+	 padding-top: 1px;
+	 padding-bottom: 1px;
+	 padding-left: 0;
+	 padding-right: 0;
+	 margin-top: 0;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+}
+ .sbox table th {
+	 text-align: left;
+	 width: 100%;
+	 float: left;
+	 display: block;
+}
+ .sbox table td {
+	 width: 100%;
+	 float: left;
+}
+ .sbox .cimage {
+	 margin-top: 2px;
+	 margin-bottom: 0;
+	 margin-left: 0;
+	 margin-right: 0;
+	 display: block;
+}
+ .sbox-input, .sbox .inputc {
+	 width: 100%;
+}
+/* sbox - end */
