@@ -14,35 +14,51 @@
     },
     "column_left": {
       "template": "layouts/cl.php",
-      "slots": ["left"]
+      "slots": [
+        "left"
+      ]
     },
     "column_left_cb": {
       "template": "layouts/cl-cb.php",
-      "slots": ["left"]
+      "slots": [
+        "left"
+      ]
     },
     "column_right": {
       "template": "layouts/cr.php",
-      "slots": ["right"]
+      "slots": [
+        "right"
+      ]
     },
     "column_right_cb": {
       "template": "layouts/cr-cb.php",
-      "slots": ["right"]
+      "slots": [
+        "right"
+      ]
     },
     "full_column_left": {
       "template": "layouts/full-cl.php",
-      "slots": ["left"]
+      "slots": [
+        "left"
+      ]
     },
     "full_column_left_cb": {
       "template": "layouts/full-cl-cb.php",
-      "slots": ["left"]
+      "slots": [
+        "left"
+      ]
     },
     "full_column_right": {
       "template": "layouts/full-cr.php",
-      "slots": ["right"]
+      "slots": [
+        "right"
+      ]
     },
     "full_column_right_cb": {
       "template": "layouts/full-cr-cb.php",
-      "slots": ["right"]
+      "slots": [
+        "right"
+      ]
     }
   },
   "css": [

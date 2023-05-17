@@ -1,1137 +1,1219 @@
 ﻿/* MENU */
- .search-bar input.unpack {
-	 display: none;
-}
- .search-bar input[type=checkbox]:checked + .unpacking .search-box {
-	 display: inline-block;
-}
- .search-bar .unpacking > .search-box {
-	 display: none;
-	 position: absolute;
-}
- .search-bar .unpacking > label {
-	 background-color: rgba(60, 60, 60, 0.1);
-	 background-image: url("images/up/up-search.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 4px;
-	 background-position-y: center;
-	 background-size: 15px auto;
-	 color: #FDFDFD;
-	 font-size: 15px;
-	 line-height: 120%;
-	 width: 46px;
-	 height: 16px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgba(50, 50, 50, 0.1);
-	 border-bottom-color: rgba(50, 50, 50, 0.1);
-	 border-left-color: rgba(50, 50, 50, 0.1);
-	 border-right-color: rgba(50, 50, 50, 0.1);
-	 display: block;
-	 cursor: pointer;
-}
- .search-bar input[type=checkbox]:checked + .unpacking label {
-	 background-color: rgba(60, 60, 60, 0.1);
-	 background-image: url("images/up/up-search.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 4px;
-	 background-position-y: center;
-	 background-size: 15px auto;
-	 width: 46px;
-	 height: 16px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgba(50, 50, 50, 0.1);
-	 border-bottom-color: rgba(50, 50, 50, 0.1);
-	 border-left-color: rgba(50, 50, 50, 0.1);
-	 border-right-color: rgba(50, 50, 50, 0.1);
-}
- .search-bar .unpacking > label:before {
-	 content: "";
-	 background-color: transparent;
-	 background-image: url("images/menu/hamburger-white.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 10px auto;
-	 width: 10px;
-	 height: 10px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 2px;
-	 margin-bottom: 0;
-	 margin-left: 26px;
-	 margin-right: 5px;
-	 float: left;
-}
- .search-bar input[type=checkbox]:checked + .unpacking label:before {
-	 content: "";
-	 background-color: transparent;
-	 background-image: url("images/menu/no-red.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 10px auto;
-	 width: 10px;
-	 height: 10px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 2px;
-	 margin-bottom: 0;
-	 margin-left: 26px;
-	 margin-right: 5px;
-	 float: left;
-}
- .search-bar .unpacking > .search-box {
-	 background-color: rgb(246, 246, 246);
-	 text-align: left;
-	 width: 238px;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 margin-top: 1px;
-	 margin-bottom: 0;
-	 margin-left: -147px;
-	 margin-right: 0;
-	 border-top-left-radius: 0;
-	 border-top-right-radius: 0;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-	 box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
-	 float: left;
-	 position: absolute;
-	 z-index: 998;
-}
- .search-box {
-	 float: left;
-}
- .user-bar input.unpack {
-	 display: none;
-}
- .user-bar input[type=checkbox]:checked + .unpacking .user-box {
-	 display: inline-block;
-}
- .user-bar .unpacking > .user-box {
-	 display: none;
-	 position: absolute;
-}
- .user-bar .unpacking > label {
-	 background-color: rgba(60, 60, 60, 0.1);
-	 background-image: url("images/up/up-user.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 4px;
-	 background-position-y: center;
-	 background-size: 16px auto;
-	 color: #FDFDFD;
-	 font-size: 15px;
-	 line-height: 120%;
-	 width: 46px;
-	 height: 16px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgba(50, 50, 50, 0.1);
-	 border-bottom-color: rgba(50, 50, 50, 0.1);
-	 border-left-color: rgba(50, 50, 50, 0.1);
-	 border-right-color: rgba(50, 50, 50, 0.1);
-	 display: block;
-	 cursor: pointer;
-}
- .user-bar input[type=checkbox]:checked + .unpacking label {
-	 background-color: rgba(60, 60, 60, 0.1);
-	 background-image: url("images/up/up-user.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 4px;
-	 background-position-y: center;
-	 background-size: 16px auto;
-	 width: 46px;
-	 height: 16px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgba(50, 50, 50, 0.1);
-	 border-bottom-color: rgba(50, 50, 50, 0.1);
-	 border-left-color: rgba(50, 50, 50, 0.1);
-	 border-right-color: rgba(50, 50, 50, 0.1);
-}
- .user-bar .unpacking > label:before {
-	 content: "";
-	 background-color: transparent;
-	 background-image: url("images/menu/hamburger-white.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 10px auto;
-	 width: 10px;
-	 height: 10px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 2px;
-	 margin-bottom: 0;
-	 margin-left: 26px;
-	 margin-right: 5px;
-	 float: left;
-}
- .user-bar input[type=checkbox]:checked + .unpacking label:before {
-	 content: "";
-	 background-color: transparent;
-	 background-image: url("images/menu/no-red.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 10px auto;
-	 width: 10px;
-	 height: 10px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 2px;
-	 margin-bottom: 0;
-	 margin-left: 26px;
-	 margin-right: 5px;
-	 float: left;
-}
- .user-bar .unpacking > .user-box {
-	 background-color: rgb(246, 246, 246);
-	 text-align: left;
-	 width: 170px;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 margin-top: 1px;
-	 margin-bottom: 0;
-	 margin-left: -125px;
-	 margin-right: 0;
-	 border-top-left-radius: 0;
-	 border-top-right-radius: 0;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-	 box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
-	 float: left;
-	 position: absolute;
-	 z-index: 5;
-}
- .user-box {
-	 float: left;
-}
- .responsive-menu-bar input.unpack {
-	 display: none;
-}
- .responsive-menu-bar input[type=checkbox]:checked + .unpacking .menu-box {
-	 float: left;
-	 display: inline-block;
-}
- .responsive-menu-bar .unpacking > .menu-box {
-	 display: none;
-	 position: relative;
-}
- .responsive-menu-bar .unpacking > label {
-	 background-color: rgb(60, 60, 60);
-	 background-image: linear-gradient(to bottom, rgb(60, 60, 60), rgb(55, 55, 55));
-	 background-repeat: repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 0%;
-	 background-position-y: 0%;
-	 background-size: auto auto;
-	 width: 36px;
-	 height: 36px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(185, 185, 185);
-	 border-bottom-color: rgb(185, 185, 185);
-	 border-left-color: rgb(185, 185, 185);
-	 border-right-color: rgb(185, 185, 185);
-	 border-top-left-radius: 5px;
-	 border-top-right-radius: 5px;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-	 display: block;
-	 cursor: pointer;
-}
- .responsive-menu-bar input[type=checkbox]:checked + .unpacking label {
-	 background-color: rgb(60, 60, 60);
-	 background-image: linear-gradient(to bottom, rgb(60, 60, 60), rgb(55, 55, 55));
-	 background-repeat: repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 0%;
-	 background-position-y: 0%;
-	 background-size: auto auto;
-	 width: 36px;
-	 height: 36px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 10px;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(185, 185, 185);
-	 border-bottom-color: rgb(185, 185, 185);
-	 border-left-color: rgb(185, 185, 185);
-	 border-right-color: rgb(185, 185, 185);
-	 border-top-left-radius: 5px;
-	 border-top-right-radius: 5px;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-}
- .responsive-menu-bar .unpacking > label:before {
-	 content: "";
-	 background-color: rgb(60, 60, 60);
-	 background-image: url("images/menu/hamburger-white.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 width: 34px;
-	 height: 34px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-left-radius: 5px;
-	 border-top-right-radius: 5px;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-	 float: left;
-}
- .e-unautorized .responsive-menu-bar .unpacking > label:before {
-	 display: none !important;
-}
- .responsive-menu-bar input[type=checkbox]:checked + .unpacking label:before {
-	 content: "";
-	 background-color: rgb(60, 60, 60);
-	 background-image: url("images/menu/no-red.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: center;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 width: 34px;
-	 height: 34px;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-left-radius: 5px;
-	 border-top-right-radius: 5px;
-	 border-bottom-right-radius: 5px;
-	 border-bottom-left-radius: 5px;
-	 float: left;
-}
- .responsive-menu-bar .unpacking > .menu-box {
-	 background-color: rgba(247, 247, 247, 0.9);
-	 width: 100%;
-	 padding-top: 10px;
-	 padding-bottom: 10px;
-	 padding-left: 18px;
-	 padding-right: 18px;
-	 margin-top: 10px;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-bottom-width: 1px;
-	 border-bottom-style: solid;
-	 border-bottom-color: rgba(255, 255, 255, 0.8);
-	 box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
-	 float: left;
-	 left: 0;
-	 position: absolute;
-	 z-index: 3;
-}
- .menu-box {
-	 float: left;
-}
- .user-menu {
-	 width: 100%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: auto;
-	 margin-right: auto;
-	 float: left;
-}
- .user-menu ul {
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 width: 100%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: auto;
-	 margin-right: auto;
-	 float: left;
-}
- .user-menu li {
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu a {
-	 color: #000000;
-	 font-size: 15px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 width: 100%;
-	 padding-top: 11px;
-	 padding-bottom: 12px;
-	 padding-left: 36px;
-	 padding-right: 15px;
-	 float: left;
-	 transition-property: all;
-	 transition-duration: 0.15s;
-	 transition-timing-function: linear;
-	 transition-delay: 0s;
-}
- .user-menu a:hover, .user-menu a:focus {
-	 color: #000000;
-	 font-size: 15px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 11px;
-	 padding-bottom: 12px;
-	 padding-left: 36px;
-	 padding-right: 15px;
-}
- .user-menu-profile a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-profile-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-profile a:hover, .user-menu-profile a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-profile-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-messages a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-mess-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-messages a:hover, .user-menu-messages a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-mess-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-settings a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-settings-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-settings a:hover, .user-menu-settings a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-settings-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-admin a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-admin-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-admin a:hover, .user-menu-admin a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-admin-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-logout a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-logout-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-logout a:hover, .user-menu-logout a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-logout-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-reg a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-reg-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-reg a:hover, .user-menu-reg a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-reg-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-login a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-login-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-login a:hover, .user-menu-login a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-login-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-ulist a {
-	 background-color: rgb(245, 245, 245);
-	 background-image: url("images/up/user-ulist-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .user-menu-ulist a:hover, .user-menu-ulist a:focus {
-	 background-color: rgb(231, 231, 231);
-	 background-image: url("images/up/user-ulist-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 3px;
-	 background-position-y: center;
-	 background-size: 20px auto;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-}
- .nav .menu {
-	 text-transform: uppercase;
-	 font-family: 'Encode Sans Condensed', sans-serif;
-	 line-height: 110%;
-	 font-size: 17px;
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 width: auto;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 7px;
-	 margin-bottom: 7px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 clear: none;
-	 display: block;
-	 float: left;
-}
- .nav .menu ul {
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-}
- .nav .menu li {
-	 font-size: 17px;
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-}
- .nav .menu a {
-	 color: #DDDDDD;
-	 font-size: 17px;
-	 text-shadow: 1px 1px 0 #000000;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 15px;
-	 padding-right: 15px;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: block;
-	 transition-property: all;
-	 transition-duration: 0.15s;
-	 transition-timing-function: linear;
-	 transition-delay: 0s;
-}
- .nav .menu a:hover {
-	 background-color: rgb(60, 60, 60);
-	 color: #FDFDFD;
-	 font-size: 17px;
-	 text-shadow: 1px 1px 0 #000000;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 15px;
-	 padding-right: 15px;
-	 float: left;
-	 display: block;
-}
- .nav .menu a:active, .nav .menu a:focus {
-	 background-color: rgb(70, 70, 70);
-	 color: #FDFDFD;
-	 font-size: 17px;
-	 text-shadow: 1px 1px 0 #000000;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 15px;
-	 padding-right: 15px;
-}
- .nav .menu .active a {
-	 background-color: rgb(40, 40, 40);
-	 color: #FDFDFD;
-	 font-size: 17px;
-	 text-shadow: 1px 1px 0 #000000;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 15px;
-	 padding-right: 15px;
-}
- .box-item .menu {
-	 color: #000000;
-	 text-transform: uppercase;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 font-family: 'Archivo Narrow', sans-serif;
-	 line-height: 110%;
-	 width: 100%;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: block;
-}
- .box-item .menu ul {
-	 width: 100%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: inline-block;
-}
- .box-item .menu li {
-	 font-size: 16px;
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 width: 100%;
-	 margin-top: 0;
-	 margin-bottom: 1px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: inline-block;
-}
- .box-item .menu a {
-	 color: #000000;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 width: 100%;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 12px;
-	 padding-right: 12px;
-	 float: left;
-	 display: inline-block;
-	 transition-property: all;
-	 transition-duration: 0.15s;
-	 transition-timing-function: linear;
-	 transition-delay: 0s;
-}
- .box-item .menu a:hover {
-	 background-color: rgba(240, 240, 240, 0.7);
-	 color: #000000;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 12px;
-	 padding-right: 12px;
-	 float: left;
-	 display: block;
-}
- .box-item .menu a:active,.box-item .menu a:focus {
-	 background-color: rgba(230, 230, 230, 0.7);
-	 color: #000000;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #CDCDCD;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 12px;
-	 padding-right: 12px;
-}
- .box-item .menu .active a {
-	 background-color: rgba(240, 240, 240, 0.7);
-	 color: #000000;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 12px;
-	 padding-right: 12px;
-}
- .column-footer .menu {
-	 color: #222222;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 line-height: 110%;
-	 font-family: 'Encode Sans Condensed', sans-serif;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 display: block;
-	 float: left;
-}
- .column-footer .menu ul {
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-}
- .column-footer .menu li {
-	 font-size: 16px;
-	 list-style-type: none;
-	 list-style-image: none;
-	 list-style-position: outside;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-}
- .column-footer .menu a {
-	 color: #222222;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 2px;
-	 padding-right: 12px;
-	 margin-top: 1px;
-	 margin-bottom: 1px;
-	 margin-left: 1px;
-	 margin-right: 1px;
-	 float: left;
-	 display: block;
-	 transition-property: all;
-	 transition-duration: 0.15s;
-	 transition-timing-function: linear;
-	 transition-delay: 0s;
-}
- .column-footer .menu a:hover {
-	 color: #FF6600;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 2px;
-	 padding-right: 12px;
-	 float: left;
-	 display: block;
-}
- .column-footer .menu a:active, .column-footer .menu a:focus {
-	 color: #FF6600;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 2px;
-	 padding-right: 12px;
-}
- .column-footer .menu .active a {
-	 color: #222222;
-	 font-size: 16px;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 2px;
-	 padding-right: 12px;
-}
- @media only screen and (max-width: 750px) {
-	 .nav .menu {
-		 width: 100%;
-		 margin-top: 0;
-		 margin-bottom: 0;
-		 margin-left: 0;
-		 margin-right: 0;
-		 float: left;
-		 display: inline-block;
-	}
-	 .nav .menu ul {
-		 width: 100%;
-		 display: inline-block;
-	}
-	 .nav .menu li, .nav .menu a {
-		 width: 100%;
-		 float: left;
-		 display: inline-block;
-	}
-	 .nav .menu a {
-		 background-color: rgb(241, 241, 241) !important;
-		 color: #000000 !important;
-		 text-shadow: 1px 1px 0 #FFFFFF !important;
-		 padding-top: 12px !important;
-		 padding-bottom: 12px !important;
-		 padding-left: 15px !important;
-		 padding-right: 15px !important;
-		 margin-top: 0 !important;
-		 margin-bottom: 0 !important;
-		 margin-left: 0 !important;
-		 margin-right: 0 !important;
-	}
-	 .nav .menu a:hover {
-		 background-color: rgb(231, 231, 231) !important;
-		 color: #000000 !important;
-		 text-shadow: 1px 1px 0 #FFFFFF !important;
-		 padding-top: 12px !important;
-		 padding-bottom: 12px !important;
-		 padding-left: 15px !important;
-		 padding-right: 15px !important;
-	}
-	 .nav .menu a:active, .nav .menu a:focus {
-		 background-color: rgb(231, 231, 231) !important;
-		 color: #000000 !important;
-		 text-shadow: 1px 1px 0 #FFFFFF !important;
-		 padding-top: 12px !important;
-		 padding-bottom: 12px !important;
-		 padding-left: 15px !important;
-		 padding-right: 15px !important;
-	}
-	 .nav .menu .active a {
-		 background-color: rgb(74, 74, 74) !important;
-		 color: #FFFFFF !important;
-		 text-shadow: 1px 1px 0 #000000 !important;
-		 padding-top: 12px !important;
-		 padding-bottom: 12px !important;
-		 padding-left: 15px !important;
-		 padding-right: 15px !important;
-	}
-	 .column-footer .menu {
-		 width: 100%;
-		 padding-top: 5px;
-		 padding-bottom: 5px;
-		 padding-left: 0;
-		 padding-right: 0;
-		 float: left;
-		 display: inline-block;
-	}
-	 .column-footer .menu ul {
-		 width: 100%;
-		 display: inline-block;
-	}
-	 .column-footer .menu li {
-		 margin-top: 0;
-		 margin-bottom: 2px;
-		 margin-left: 0;
-		 margin-right: 0;
-	}
-	 .column-footer .menu li, .column-footer .menu a {
-		 width: 100%;
-		 float: left;
-		 display: inline-block;
-	}
-	 .column-footer .menu a, .column-footer .menu a:hover, .column-footer .menu a:focus, .column-footer .menu a:active, .column-footer .menu .active a {
-		 padding-top: 10px;
-		 padding-bottom: 10px;
-		 padding-left: 15px;
-		 padding-right: 15px;
-	}
-}
+.search-bar input.unpack {
+    display: none;
+}
+
+.search-bar input[type=checkbox]:checked + .unpacking .search-box {
+    display: inline-block;
+}
+
+.search-bar .unpacking > .search-box {
+    display: none;
+    position: absolute;
+}
+
+.search-bar .unpacking > label {
+    background-color: rgba(60, 60, 60, 0.1);
+    background-image: url("images/up/up-search.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-size: 15px auto;
+    color: #FDFDFD;
+    font-size: 15px;
+    line-height: 120%;
+    width: 46px;
+    height: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgba(50, 50, 50, 0.1);
+    border-bottom-color: rgba(50, 50, 50, 0.1);
+    border-left-color: rgba(50, 50, 50, 0.1);
+    border-right-color: rgba(50, 50, 50, 0.1);
+    display: block;
+    cursor: pointer;
+}
+
+.search-bar input[type=checkbox]:checked + .unpacking label {
+    background-color: rgba(60, 60, 60, 0.1);
+    background-image: url("images/up/up-search.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-size: 15px auto;
+    width: 46px;
+    height: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgba(50, 50, 50, 0.1);
+    border-bottom-color: rgba(50, 50, 50, 0.1);
+    border-left-color: rgba(50, 50, 50, 0.1);
+    border-right-color: rgba(50, 50, 50, 0.1);
+}
+
+.search-bar .unpacking > label:before {
+    content: "";
+    background-color: transparent;
+    background-image: url("images/menu/hamburger-white.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10px auto;
+    width: 10px;
+    height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 26px;
+    margin-right: 5px;
+    float: left;
+}
+
+.search-bar input[type=checkbox]:checked + .unpacking label:before {
+    content: "";
+    background-color: transparent;
+    background-image: url("images/menu/no-red.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10px auto;
+    width: 10px;
+    height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 26px;
+    margin-right: 5px;
+    float: left;
+}
+
+.search-bar .unpacking > .search-box {
+    background-color: rgb(246, 246, 246);
+    text-align: left;
+    width: 238px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    margin-left: -147px;
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
+    float: left;
+    position: absolute;
+    z-index: 998;
+}
+
+.search-box {
+    float: left;
+}
+
+.user-bar input.unpack {
+    display: none;
+}
+
+.user-bar input[type=checkbox]:checked + .unpacking .user-box {
+    display: inline-block;
+}
+
+.user-bar .unpacking > .user-box {
+    display: none;
+    position: absolute;
+}
+
+.user-bar .unpacking > label {
+    background-color: rgba(60, 60, 60, 0.1);
+    background-image: url("images/up/up-user.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-size: 16px auto;
+    color: #FDFDFD;
+    font-size: 15px;
+    line-height: 120%;
+    width: 46px;
+    height: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgba(50, 50, 50, 0.1);
+    border-bottom-color: rgba(50, 50, 50, 0.1);
+    border-left-color: rgba(50, 50, 50, 0.1);
+    border-right-color: rgba(50, 50, 50, 0.1);
+    display: block;
+    cursor: pointer;
+}
+
+.user-bar input[type=checkbox]:checked + .unpacking label {
+    background-color: rgba(60, 60, 60, 0.1);
+    background-image: url("images/up/up-user.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 4px;
+    background-position-y: center;
+    background-size: 16px auto;
+    width: 46px;
+    height: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgba(50, 50, 50, 0.1);
+    border-bottom-color: rgba(50, 50, 50, 0.1);
+    border-left-color: rgba(50, 50, 50, 0.1);
+    border-right-color: rgba(50, 50, 50, 0.1);
+}
+
+.user-bar .unpacking > label:before {
+    content: "";
+    background-color: transparent;
+    background-image: url("images/menu/hamburger-white.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10px auto;
+    width: 10px;
+    height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 26px;
+    margin-right: 5px;
+    float: left;
+}
+
+.user-bar input[type=checkbox]:checked + .unpacking label:before {
+    content: "";
+    background-color: transparent;
+    background-image: url("images/menu/no-red.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 10px auto;
+    width: 10px;
+    height: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 26px;
+    margin-right: 5px;
+    float: left;
+}
+
+.user-bar .unpacking > .user-box {
+    background-color: rgb(246, 246, 246);
+    text-align: left;
+    width: 170px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 1px;
+    margin-bottom: 0;
+    margin-left: -125px;
+    margin-right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
+    float: left;
+    position: absolute;
+    z-index: 5;
+}
+
+.user-box {
+    float: left;
+}
+
+.responsive-menu-bar input.unpack {
+    display: none;
+}
+
+.responsive-menu-bar input[type=checkbox]:checked + .unpacking .menu-box {
+    float: left;
+    display: inline-block;
+}
+
+.responsive-menu-bar .unpacking > .menu-box {
+    display: none;
+    position: relative;
+}
+
+.responsive-menu-bar .unpacking > label {
+    background-color: rgb(60, 60, 60);
+    background-image: linear-gradient(to bottom, rgb(60, 60, 60), rgb(55, 55, 55));
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    width: 36px;
+    height: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(185, 185, 185);
+    border-bottom-color: rgb(185, 185, 185);
+    border-left-color: rgb(185, 185, 185);
+    border-right-color: rgb(185, 185, 185);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    cursor: pointer;
+}
+
+.responsive-menu-bar input[type=checkbox]:checked + .unpacking label {
+    background-color: rgb(60, 60, 60);
+    background-image: linear-gradient(to bottom, rgb(60, 60, 60), rgb(55, 55, 55));
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto auto;
+    width: 36px;
+    height: 36px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(185, 185, 185);
+    border-bottom-color: rgb(185, 185, 185);
+    border-left-color: rgb(185, 185, 185);
+    border-right-color: rgb(185, 185, 185);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.responsive-menu-bar .unpacking > label:before {
+    content: "";
+    background-color: rgb(60, 60, 60);
+    background-image: url("images/menu/hamburger-white.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 20px auto;
+    width: 34px;
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+
+.e-unautorized .responsive-menu-bar .unpacking > label:before {
+    display: none !important;
+}
+
+.responsive-menu-bar input[type=checkbox]:checked + .unpacking label:before {
+    content: "";
+    background-color: rgb(60, 60, 60);
+    background-image: url("images/menu/no-red.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 20px auto;
+    width: 34px;
+    height: 34px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    float: left;
+}
+
+.responsive-menu-bar .unpacking > .menu-box {
+    background-color: rgba(247, 247, 247, 0.9);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 2px 4px rgba(34, 25, 25, 0.4);
+    float: left;
+    left: 0;
+    position: absolute;
+    z-index: 3;
+}
+
+.menu-box {
+    float: left;
+}
+
+.user-menu {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.user-menu ul {
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+.user-menu li {
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu a {
+    color: #000000;
+    font-size: 15px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 100%;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 15px;
+    float: left;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.user-menu a:hover, .user-menu a:focus {
+    color: #000000;
+    font-size: 15px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 11px;
+    padding-bottom: 12px;
+    padding-left: 36px;
+    padding-right: 15px;
+}
+
+.user-menu-profile a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-profile-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-profile a:hover, .user-menu-profile a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-profile-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-messages a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-mess-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-messages a:hover, .user-menu-messages a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-mess-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-settings a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-settings-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-settings a:hover, .user-menu-settings a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-settings-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-admin a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-admin-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-admin a:hover, .user-menu-admin a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-admin-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-logout a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-logout-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-logout a:hover, .user-menu-logout a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-logout-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-reg a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-reg-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-reg a:hover, .user-menu-reg a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-reg-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-login a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-login-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-login a:hover, .user-menu-login a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-login-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-ulist a {
+    background-color: rgb(245, 245, 245);
+    background-image: url("images/up/user-ulist-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.user-menu-ulist a:hover, .user-menu-ulist a:focus {
+    background-color: rgb(231, 231, 231);
+    background-image: url("images/up/user-ulist-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 3px;
+    background-position-y: center;
+    background-size: 20px auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.nav .menu {
+    text-transform: uppercase;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    line-height: 110%;
+    font-size: 17px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    width: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    display: block;
+    float: left;
+}
+
+.nav .menu ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+
+.nav .menu li {
+    font-size: 17px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+
+.nav .menu a {
+    color: #DDDDDD;
+    font-size: 17px;
+    text-shadow: 1px 1px 0 #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: block;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.nav .menu a:hover {
+    background-color: rgb(60, 60, 60);
+    color: #FDFDFD;
+    font-size: 17px;
+    text-shadow: 1px 1px 0 #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    display: block;
+}
+
+.nav .menu a:active, .nav .menu a:focus {
+    background-color: rgb(70, 70, 70);
+    color: #FDFDFD;
+    font-size: 17px;
+    text-shadow: 1px 1px 0 #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.nav .menu .active a {
+    background-color: rgb(40, 40, 40);
+    color: #FDFDFD;
+    font-size: 17px;
+    text-shadow: 1px 1px 0 #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.box-item .menu {
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 110%;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: block;
+}
+
+.box-item .menu ul {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: inline-block;
+}
+
+.box-item .menu li {
+    font-size: 16px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: inline-block;
+}
+
+.box-item .menu a {
+    color: #000000;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: left;
+    display: inline-block;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.box-item .menu a:hover {
+    background-color: rgba(240, 240, 240, 0.7);
+    color: #000000;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    float: left;
+    display: block;
+}
+
+.box-item .menu a:active, .box-item .menu a:focus {
+    background-color: rgba(230, 230, 230, 0.7);
+    color: #000000;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #CDCDCD;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.box-item .menu .active a {
+    background-color: rgba(240, 240, 240, 0.7);
+    color: #000000;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.column-footer .menu {
+    color: #222222;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    line-height: 110%;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    display: block;
+    float: left;
+}
+
+.column-footer .menu ul {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+
+.column-footer .menu li {
+    font-size: 16px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+}
+
+.column-footer .menu a {
+    color: #222222;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 12px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+    float: left;
+    display: block;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+}
+
+.column-footer .menu a:hover {
+    color: #FF6600;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 12px;
+    float: left;
+    display: block;
+}
+
+.column-footer .menu a:active, .column-footer .menu a:focus {
+    color: #FF6600;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 12px;
+}
+
+.column-footer .menu .active a {
+    color: #222222;
+    font-size: 16px;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 12px;
+}
+
+@media only screen and (max-width: 750px) {
+    .nav .menu {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+        display: inline-block;
+    }
+
+    .nav .menu ul {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .nav .menu li, .nav .menu a {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+
+    .nav .menu a {
+        background-color: rgb(241, 241, 241) !important;
+        color: #000000 !important;
+        text-shadow: 1px 1px 0 #FFFFFF !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .nav .menu a:hover {
+        background-color: rgb(231, 231, 231) !important;
+        color: #000000 !important;
+        text-shadow: 1px 1px 0 #FFFFFF !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .nav .menu a:active, .nav .menu a:focus {
+        background-color: rgb(231, 231, 231) !important;
+        color: #000000 !important;
+        text-shadow: 1px 1px 0 #FFFFFF !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .nav .menu .active a {
+        background-color: rgb(74, 74, 74) !important;
+        color: #FFFFFF !important;
+        text-shadow: 1px 1px 0 #000000 !important;
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .column-footer .menu {
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        float: left;
+        display: inline-block;
+    }
+
+    .column-footer .menu ul {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .column-footer .menu li {
+        margin-top: 0;
+        margin-bottom: 2px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .column-footer .menu li, .column-footer .menu a {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+
+    .column-footer .menu a, .column-footer .menu a:hover, .column-footer .menu a:focus, .column-footer .menu a:active, .column-footer .menu .active a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 /* MENU - end*/

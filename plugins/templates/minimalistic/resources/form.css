@@ -1,826 +1,885 @@
 ﻿/* forms */
- label {
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 0;
-	 padding-right: 0;
-	 display: block;
+label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
 }
- table {
-	 width: 100%;
+
+table {
+    width: 100%;
 }
- iframe {
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(186, 186, 186);
-	 border-bottom-color: rgb(186, 186, 186);
-	 border-left-color: rgb(186, 186, 186);
-	 border-right-color: rgb(186, 186, 186);
+
+iframe {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(186, 186, 186);
+    border-bottom-color: rgb(186, 186, 186);
+    border-left-color: rgb(186, 186, 186);
+    border-right-color: rgb(186, 186, 186);
 }
- form {
-	 margin-top: 0;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
+
+form {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
- fieldset {
-	 background-color: rgb(246, 246, 247);
-	 padding-top: 5px;
-	 padding-bottom: 15px;
-	 padding-left: 15px;
-	 padding-right: 15px;
-	 margin-top: 0;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(217, 217, 217);
-	 border-bottom-color: rgb(217, 217, 217);
-	 border-left-color: rgb(217, 217, 217);
-	 border-right-color: rgb(217, 217, 217);
+
+fieldset {
+    background-color: rgb(246, 246, 247);
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(217, 217, 217);
+    border-bottom-color: rgb(217, 217, 217);
+    border-left-color: rgb(217, 217, 217);
+    border-right-color: rgb(217, 217, 217);
 }
- fieldset p {
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
+
+fieldset p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
- legend {
-	 background-color: rgb(234, 235, 238);
-	 color: #111111;
-	 text-shadow: 0 1px 0 #FFFFFF;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 10px;
-	 padding-right: 10px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 2px;
-	 border-right-width: 1px;
-	 border-top-style: dashed;
-	 border-bottom-style: dashed;
-	 border-left-style: solid;
-	 border-right-style: dashed;
-	 border-top-color: rgb(219, 219, 219);
-	 border-bottom-color: rgb(219, 219, 219);
-	 border-left-color: rgb(83, 166, 123);
-	 border-right-color: rgb(219, 219, 219);
+
+legend {
+    background-color: rgb(234, 235, 238);
+    color: #111111;
+    text-shadow: 0 1px 0 #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
+    border-right-width: 1px;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left-style: solid;
+    border-right-style: dashed;
+    border-top-color: rgb(219, 219, 219);
+    border-bottom-color: rgb(219, 219, 219);
+    border-left-color: rgb(83, 166, 123);
+    border-right-color: rgb(219, 219, 219);
 }
- textarea {
-	 background-color: rgb(255, 255, 255);
-	 color: #000000;
-	 width: 100%;
-	 min-width: 20px;
-	 padding-top: 10px;
-	 padding-bottom: 10px;
-	 padding-left: 10px;
-	 padding-right: 10px;
-	 margin-top: 0;
-	 margin-bottom: 3px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+textarea {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    width: 100%;
+    min-width: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- textarea:hover {
-	 background-color: rgb(240, 240, 240);
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+textarea:hover {
+    background-color: rgb(240, 240, 240);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- textarea:active, textarea:focus {
-	 background-color: rgb(240, 240, 240);
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+textarea:active, textarea:focus {
+    background-color: rgb(240, 240, 240);
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- select, select:hover {
-	 background-color: rgb(255, 255, 255);
-	 color: #000000;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 15px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(186, 186, 186);
-	 border-bottom-color: rgb(186, 186, 186);
-	 border-left-color: rgb(186, 186, 186);
-	 border-right-color: rgb(186, 186, 186);
+
+select, select:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(186, 186, 186);
+    border-bottom-color: rgb(186, 186, 186);
+    border-left-color: rgb(186, 186, 186);
+    border-right-color: rgb(186, 186, 186);
 }
- select:active, select:focus {
-	 background-color: rgb(240, 240, 240) !important;
-	 color: #000000;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 15px;
-	 border-top-width: 1px !important;
-	 border-bottom-width: 1px !important;
-	 border-left-width: 1px !important;
-	 border-right-width: 1px !important;
-	 border-top-style: solid !important;
-	 border-bottom-style: solid !important;
-	 border-left-style: solid !important;
-	 border-right-style: solid !important;
-	 border-top-color: rgb(154, 154, 154) !important;
-	 border-bottom-color: rgb(154, 154, 154) !important;
-	 border-left-color: rgb(154, 154, 154) !important;
-	 border-right-color: rgb(154, 154, 154) !important;
+
+select:active, select:focus {
+    background-color: rgb(240, 240, 240) !important;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    border-top-width: 1px !important;
+    border-bottom-width: 1px !important;
+    border-left-width: 1px !important;
+    border-right-width: 1px !important;
+    border-top-style: solid !important;
+    border-bottom-style: solid !important;
+    border-left-style: solid !important;
+    border-right-style: solid !important;
+    border-top-color: rgb(154, 154, 154) !important;
+    border-bottom-color: rgb(154, 154, 154) !important;
+    border-left-color: rgb(154, 154, 154) !important;
+    border-right-color: rgb(154, 154, 154) !important;
 }
- select[name="group_id"], select[name="action"], select[name="new_forum"] {
-	 background-color: transparent;
-	 background-image: url("images/menu/select_arrow.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: right;
-	 background-position-y: center;
-	 background-size: auto auto;
-	 line-height: 110%;
-	 appearance: none;
-	 -webkit-appearance: none;
-	 -moz-appearance: none;
-	 padding-top: 8px !important;
-	 padding-bottom: 8px !important;
-	 padding-left: 8px !important;
-	 padding-right: 20px !important;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 15px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(186, 186, 186);
-	 border-bottom-color: rgb(186, 186, 186);
-	 border-left-color: rgb(186, 186, 186);
-	 border-right-color: rgb(186, 186, 186);
-	 cursor: pointer;
-	 float: left;
-	 display: block;
+
+select[name="group_id"], select[name="action"], select[name="new_forum"] {
+    background-color: transparent;
+    background-image: url("images/menu/select_arrow.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: auto auto;
+    line-height: 110%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 8px !important;
+    padding-right: 20px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(186, 186, 186);
+    border-bottom-color: rgb(186, 186, 186);
+    border-left-color: rgb(186, 186, 186);
+    border-right-color: rgb(186, 186, 186);
+    cursor: pointer;
+    float: left;
+    display: block;
 }
- select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover {
-	 background-color: transparent;
-	 background-image: url("images/menu/select_arrow.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: right;
-	 background-position-y: center;
-	 background-size: auto auto;
-	 line-height: 110%;
-	 appearance: none;
-	 -webkit-appearance: none;
-	 -moz-appearance: none;
-	 padding-top: 8px !important;
-	 padding-bottom: 8px !important;
-	 padding-left: 8px !important;
-	 padding-right: 20px !important;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 15px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(186, 186, 186);
-	 border-bottom-color: rgb(186, 186, 186);
-	 border-left-color: rgb(186, 186, 186);
-	 border-right-color: rgb(186, 186, 186);
-	 cursor: pointer;
-	 float: left;
-	 display: block;
+
+select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover {
+    background-color: transparent;
+    background-image: url("images/menu/select_arrow.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: auto auto;
+    line-height: 110%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    padding-left: 8px !important;
+    padding-right: 20px !important;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 15px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(186, 186, 186);
+    border-bottom-color: rgb(186, 186, 186);
+    border-left-color: rgb(186, 186, 186);
+    border-right-color: rgb(186, 186, 186);
+    cursor: pointer;
+    float: left;
+    display: block;
 }
- select[name="group_id"] option, select[name="action"] option, select[name="new_forum"] option {
-	 background-color: transparent !important;
-	 color: #000000;
-	 padding-left: 8px !important;
-	 padding-right: 8px !important;
+
+select[name="group_id"] option, select[name="action"] option, select[name="new_forum"] option {
+    background-color: transparent !important;
+    color: #000000;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
 }
- button {
-	 color: #000000;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-left-radius: 2px;
-	 border-top-right-radius: 2px;
-	 border-bottom-right-radius: 2px;
-	 border-bottom-left-radius: 2px;
+
+button {
+    color: #000000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
- a.button .icon {
-	 display: none;
+
+a.button .icon {
+    display: none;
 }
- a.button {
+
+a.button {
 }
- a.button:hover {
+
+a.button:hover {
 }
- a.button:active, a.button:focus {
+
+a.button:active, a.button:focus {
 }
- .posts-form .button {
-	 max-width: 100%;
-	 float: left;
-	 display: block;
+
+.posts-form .button {
+    max-width: 100%;
+    float: left;
+    display: block;
 }
- .posts-form a.button {
-	 background-color: rgb(232, 232, 232);
-	 background-image: url("images/buttons/comments-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 5px;
-	 background-position-y: center;
-	 background-size: 17px auto;
-	 color: #333333;
-	 font-size: 16px;
-	 line-height: 110%;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 29px;
-	 padding-right: 8px;
-	 margin-top: 0;
-	 margin-bottom: 5px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(150, 150, 150);
-	 border-bottom-color: rgb(150, 150, 150);
-	 border-left-color: rgb(150, 150, 150);
-	 border-right-color: rgb(150, 150, 150);
-	 border-top-left-radius: 2px;
-	 border-top-right-radius: 2px;
-	 border-bottom-right-radius: 2px;
-	 border-bottom-left-radius: 2px;
-	 cursor: pointer;
-	 transition-property: all;
-	 transition-duration: 0.15s;
-	 transition-timing-function: linear;
-	 transition-delay: 0s;
+
+.posts-form a.button {
+    background-color: rgb(232, 232, 232);
+    background-image: url("images/buttons/comments-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 5px;
+    background-position-y: center;
+    background-size: 17px auto;
+    color: #333333;
+    font-size: 16px;
+    line-height: 110%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+    padding-right: 8px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(150, 150, 150);
+    border-bottom-color: rgb(150, 150, 150);
+    border-left-color: rgb(150, 150, 150);
+    border-right-color: rgb(150, 150, 150);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.15s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
 }
- .posts-form a.button:hover {
-	 background-color: rgb(222, 222, 222);
-	 background-image: url("images/buttons/comments-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 5px;
-	 background-position-y: center;
-	 background-size: 17px auto;
-	 color: #111111;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 29px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(150, 150, 150);
-	 border-bottom-color: rgb(150, 150, 150);
-	 border-left-color: rgb(150, 150, 150);
-	 border-right-color: rgb(150, 150, 150);
-	 border-top-left-radius: 2px;
-	 border-top-right-radius: 2px;
-	 border-bottom-right-radius: 2px;
-	 border-bottom-left-radius: 2px;
+
+.posts-form a.button:hover {
+    background-color: rgb(222, 222, 222);
+    background-image: url("images/buttons/comments-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 5px;
+    background-position-y: center;
+    background-size: 17px auto;
+    color: #111111;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(150, 150, 150);
+    border-bottom-color: rgb(150, 150, 150);
+    border-left-color: rgb(150, 150, 150);
+    border-right-color: rgb(150, 150, 150);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
- .posts-form a.button:active, .posts-form a.button:focus {
-	 background-color: rgb(222, 222, 222);
-	 background-image: url("images/buttons/comments-black.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 5px;
-	 background-position-y: center;
-	 background-size: 17px auto;
-	 color: #111111;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 29px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(150, 150, 150);
-	 border-bottom-color: rgb(150, 150, 150);
-	 border-left-color: rgb(150, 150, 150);
-	 border-right-color: rgb(150, 150, 150);
-	 border-top-left-radius: 2px;
-	 border-top-right-radius: 2px;
-	 border-bottom-right-radius: 2px;
-	 border-bottom-left-radius: 2px;
+
+.posts-form a.button:active, .posts-form a.button:focus {
+    background-color: rgb(222, 222, 222);
+    background-image: url("images/buttons/comments-black.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 5px;
+    background-position-y: center;
+    background-size: 17px auto;
+    color: #111111;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(150, 150, 150);
+    border-bottom-color: rgb(150, 150, 150);
+    border-left-color: rgb(150, 150, 150);
+    border-right-color: rgb(150, 150, 150);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
- .areasmall {
-	 width: 100%;
-	 height: 100px;
+
+.areasmall {
+    width: 100%;
+    height: 100px;
 }
- .areamedium {
-	 width: 100%;
-	 height: 150px;
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.areamedium {
+    width: 100%;
+    height: 150px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall, .inputmedium {
-	 text-align: left;
-	 width: 100%;
+
+.inputsmall, .inputmedium {
+    text-align: left;
+    width: 100%;
 }
- input.inputsmall, form {
-	 max-width: 9999px;
+
+input.inputsmall, form {
+    max-width: 9999px;
 }
- @media only screen and (max-width:470px) {
-	 p label {
-		 width: 100%;
-		 margin-top: 10px;
-		 margin-bottom: 0;
-		 margin-left: 0;
-		 margin-right: 0;
-		 float: left;
-		 display: inline-block;
-	}
-	 select {
-		 margin-top: 0;
-		 margin-bottom: 5px;
-		 margin-left: 0;
-		 margin-right: 15px;
-	}
-	 select[name="group_id"], select[name="action"], select[name="new_forum"] {
-		 margin-top: 10px;
-		 margin-bottom: 10px;
-		 margin-left: 2px;
-		 margin-right: 2px;
-		 clear: both;
-		 display: inline-block;
-	}
-	 button {
-		 width: 100%;
-	}
-	 a.button, a.button:hover, a.button:active, a.button:focus {
-		 text-align: center;
-		 width: 100%;
-		 padding-top: 8px;
-		 padding-bottom: 8px;
-		 padding-left: 0;
-		 padding-right: 14px;
-		 float: left;
-		 display: inline-block;
-	}
-	 .button img.icon {
-		 padding-top: 3px;
-		 padding-bottom: 3px;
-		 padding-left: 5px;
-		 padding-right: 5px;
-		 float: left;
-	}
-	 select[name="group_id"], select[name="action"], select[name="new_forum"], select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover, select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover {
-		 margin-top: 0;
-		 margin-bottom: 10px;
-		 margin-left: 0;
-		 margin-right: 0;
-	}
-	 .posts-form a.button, .posts-form a.button:hover, .posts-form a.button:active, .posts-form a.button:focus {
-		 padding-top: 8px;
-		 padding-bottom: 8px;
-		 padding-left: 8px;
-		 padding-right: 8px;
-	}
+
+@media only screen and (max-width: 470px) {
+    p label {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        float: left;
+        display: inline-block;
+    }
+
+    select {
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    select[name="group_id"], select[name="action"], select[name="new_forum"] {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+        clear: both;
+        display: inline-block;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    a.button, a.button:hover, a.button:active, a.button:focus {
+        text-align: center;
+        width: 100%;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 0;
+        padding-right: 14px;
+        float: left;
+        display: inline-block;
+    }
+
+    .button img.icon {
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 5px;
+        padding-right: 5px;
+        float: left;
+    }
+
+    select[name="group_id"], select[name="action"], select[name="new_forum"], select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover, select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover {
+        margin-top: 0;
+        margin-bottom: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .posts-form a.button, .posts-form a.button:hover, .posts-form a.button:active, .posts-form a.button:focus {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
+
 /* forms - end */
 /* inputs */
- input {
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 5px;
+input {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
 }
- input[type="text"], input[type="email"], input[type="password"] {
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+input[type="text"], input[type="email"], input[type="password"] {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- input[type="file"] {
-	 background-color: rgb(245, 245, 245);
-	 color: #333333;
-	 text-overflow: ellipsis;
-	 width: 100%;
-	 min-width: 0;
-	 min-height: 34px;
-	 padding-top: 2px;
-	 padding-bottom: 4px;
-	 padding-left: 0;
-	 padding-right: 2px;
-	 cursor: pointer;
-	 overflow-x: hidden;
-	 overflow-y: hidden;
-	 float: left;
+
+input[type="file"] {
+    background-color: rgb(245, 245, 245);
+    color: #333333;
+    text-overflow: ellipsis;
+    width: 100%;
+    min-width: 0;
+    min-height: 34px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    padding-left: 0;
+    padding-right: 2px;
+    cursor: pointer;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    float: left;
 }
- input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover, input[type="password"]:focus, input[type="email"]:hover, input[type="email"]:focus {
-	 background-color: rgb(253, 253, 253);
-	 color: #000000;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(85, 85, 85);
-	 border-bottom-color: rgb(85, 85, 85);
-	 border-left-color: rgb(85, 85, 85);
-	 border-right-color: rgb(85, 85, 85);
+
+input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover, input[type="password"]:focus, input[type="email"]:hover, input[type="email"]:focus {
+    background-color: rgb(253, 253, 253);
+    color: #000000;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(85, 85, 85);
+    border-bottom-color: rgb(85, 85, 85);
+    border-left-color: rgb(85, 85, 85);
+    border-right-color: rgb(85, 85, 85);
 }
- @media only screen and (max-width:750px) {
-	 input.inputsmall, form {
-		 width: 100%;
-		 float: left;
-		 display: inline-block;
-	}
-	 input[type="text"], input[type="email"], input[type="password"] {
-		 margin-top: 0;
-		 margin-bottom: 5px;
-		 margin-left: 0;
-		 margin-right: 0;
-	}
+
+@media only screen and (max-width: 750px) {
+    input.inputsmall, form {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+
+    input[type="text"], input[type="email"], input[type="password"] {
+        margin-top: 0;
+        margin-bottom: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
- @media only screen and (max-width:470px) {
-	 input {
-		 text-align: center;
-		 text-overflow: ellipsis;
-		 width: 100%;
-		 min-width: 0;
-		 padding-top: 10px;
-		 padding-bottom: 10px;
-		 padding-left: 10px;
-		 padding-right: 10px;
-		 margin-top: 1px;
-		 margin-bottom: 1px;
-		 margin-left: 0;
-		 margin-right: 0;
-		 overflow-x: hidden;
-		 overflow-y: hidden;
-		 float: left;
-		 display: inline-block;
-	}
-	 input[type="text"], input[type="password"] {
-		 text-align: left;
-	}
-	 input[type="text"], input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus, input[type="email"], input[type="email"]:hover, input[type="email"]:active, input[type="email"]:focus, input[type="password"], input[type="password"]:hover, input[type="password"]:active, input[type="password"]:focus, input[type="button"], input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus, button, select {
-		 padding-top: 8px;
-		 padding-bottom: 8px;
-		 padding-left: 8px;
-		 padding-right: 8px;
-	}
+
+@media only screen and (max-width: 470px) {
+    input {
+        text-align: center;
+        text-overflow: ellipsis;
+        width: 100%;
+        min-width: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 1px;
+        margin-bottom: 1px;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        float: left;
+        display: inline-block;
+    }
+
+    input[type="text"], input[type="password"] {
+        text-align: left;
+    }
+
+    input[type="text"], input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus, input[type="email"], input[type="email"]:hover, input[type="email"]:active, input[type="email"]:focus, input[type="password"], input[type="password"]:hover, input[type="password"]:active, input[type="password"]:focus, input[type="button"], input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus, button, select {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 }
+
 /* inputs - end */
 /* inputs - name */
- input[name="login_persistent"], input[name="delete"], input[name="massemail"], input[name="page"], input[name="art"], input[name="post"], input[name="img"], input[name="public"], input[name="wysiwyg"], input[name="removeavatar"], input[name="option"], input[name="agreement"], input[name="selfremove"] {
-	 margin-top: 2px;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 5px;
-	 cursor: pointer;
-	 width: 15px;
-	 height: 15px;
-	 float: left;
-	 display: block;
+input[name="login_persistent"], input[name="delete"], input[name="massemail"], input[name="page"], input[name="art"], input[name="post"], input[name="img"], input[name="public"], input[name="wysiwyg"], input[name="removeavatar"], input[name="option"], input[name="agreement"], input[name="selfremove"] {
+    margin-top: 2px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    float: left;
+    display: block;
 }
- .inputmedium[name="login_username"], .inputsmall[name="username"], .inputsmall[name="publicname"], .inputsmall[name="guest"], .inputsmall[name="receiver"], .sbox-input[name="guest"] {
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_username"], .inputsmall[name="username"], .inputsmall[name="publicname"], .inputsmall[name="guest"], .inputsmall[name="receiver"], .sbox-input[name="guest"] {
+    background-color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputmedium[name="login_username"]:hover, .inputsmall[name="username"]:hover, .inputsmall[name="publicname"]:hover, .inputsmall[name="guest"]:hover, .inputsmall[name="receiver"]:hover, .sbox-input[name="guest"]:hover {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_username"]:hover, .inputsmall[name="username"]:hover, .inputsmall[name="publicname"]:hover, .inputsmall[name="guest"]:hover, .inputsmall[name="receiver"]:hover, .sbox-input[name="guest"]:hover {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputmedium[name="login_username"]:active, .inputmedium[name="login_username"]:focus, .inputsmall[name="username"]:active, .inputsmall[name="username"]:focus, .inputsmall[name="publicname"]:active, .inputsmall[name="publicname"]:focus, .inputsmall[name="guest"]:active, .inputsmall[name="guest"]:focus, .inputsmall[name="receiver"]:active, .inputsmall[name="receiver"]:focus, .sbox-input[name="guest"]:active, .sbox-input[name="guest"]:focus {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_username"]:active, .inputmedium[name="login_username"]:focus, .inputsmall[name="username"]:active, .inputsmall[name="username"]:focus, .inputsmall[name="publicname"]:active, .inputsmall[name="publicname"]:focus, .inputsmall[name="guest"]:active, .inputsmall[name="guest"]:focus, .inputsmall[name="receiver"]:active, .inputsmall[name="receiver"]:focus, .sbox-input[name="guest"]:active, .sbox-input[name="guest"]:focus {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputmedium[name="login_password"], .inputsmall[name="password"], .inputsmall[name="password2"], .inputsmall[name="currentpassword"], .inputsmall[name="newpassword"], .inputsmall[name="newpassword-confirm"] {
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_password"], .inputsmall[name="password"], .inputsmall[name="password2"], .inputsmall[name="currentpassword"], .inputsmall[name="newpassword"], .inputsmall[name="newpassword-confirm"] {
+    background-color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputmedium[name="login_password"]:hover, .inputsmall[name="password"]:hover, .inputsmall[name="password2"]:hover, .inputsmall[name="currentpassword"]:hover, .inputsmall[name="newpassword"]:hover, .inputsmall[name="newpassword-confirm"]:hover {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_password"]:hover, .inputsmall[name="password"]:hover, .inputsmall[name="password2"]:hover, .inputsmall[name="currentpassword"]:hover, .inputsmall[name="newpassword"]:hover, .inputsmall[name="newpassword-confirm"]:hover {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputmedium[name="login_password"]:active, .inputmedium[name="login_password"]:focus, .inputsmall[name="password"]:active, .inputsmall[name="password"]:focus, .inputsmall[name="password2"]:active, .inputsmall[name="password2"]:focus, .inputsmall[name="currentpassword"]:active, .inputsmall[name="currentpassword"]:focus, .inputsmall[name="newpassword"]:active, .inputsmall[name="newpassword"]:focus, .inputsmall[name="newpassword-confirm"]:hover, .inputsmall[name="newpassword-confirm"]:focus {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputmedium[name="login_password"]:active, .inputmedium[name="login_password"]:focus, .inputsmall[name="password"]:active, .inputsmall[name="password"]:focus, .inputsmall[name="password2"]:active, .inputsmall[name="password2"]:focus, .inputsmall[name="currentpassword"]:active, .inputsmall[name="currentpassword"]:focus, .inputsmall[name="newpassword"]:active, .inputsmall[name="newpassword"]:focus, .inputsmall[name="newpassword-confirm"]:hover, .inputsmall[name="newpassword-confirm"]:focus {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="email"], .inputsmall[name="sender"] {
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="email"], .inputsmall[name="sender"] {
+    background-color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="email"]:hover, .inputsmall[name="sender"]:hover {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="email"]:hover, .inputsmall[name="sender"]:hover {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="email"]:active, .inputsmall[name="email"]:focus, .inputsmall[name="sender"]:active, .inputsmall[name="sender"]:focus {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="email"]:active, .inputsmall[name="email"]:focus, .inputsmall[name="sender"]:active, .inputsmall[name="sender"]:focus {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="subject"], .inputmedium[name="subject"], .sbox-input[name="text"] {
-	 background-color: rgb(255, 255, 255);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="subject"], .inputmedium[name="subject"], .sbox-input[name="text"] {
+    background-color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="subject"]:hover, .inputmedium[name="subject"]:hover, .sbox-input[name="text"]:hover {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="subject"]:hover, .inputmedium[name="subject"]:hover, .sbox-input[name="text"]:hover {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- .inputsmall[name="subject"]:active, .inputsmall[name="subject"]:focus, .inputmedium[name="subject"]:active, .inputmedium[name="subject"]:focus, .sbox-input[name="text"]:active, .sbox-input[name="text"]:focus {
-	 background-color: rgb(240, 240, 240);
-	 padding-top: 8px;
-	 padding-bottom: 8px;
-	 padding-left: 8px;
-	 padding-right: 8px;
-	 border-top-width: 1px;
-	 border-bottom-width: 1px;
-	 border-left-width: 1px;
-	 border-right-width: 1px;
-	 border-top-style: solid;
-	 border-bottom-style: solid;
-	 border-left-style: solid;
-	 border-right-style: solid;
-	 border-top-color: rgb(154, 154, 154);
-	 border-bottom-color: rgb(154, 154, 154);
-	 border-left-color: rgb(154, 154, 154);
-	 border-right-color: rgb(154, 154, 154);
+
+.inputsmall[name="subject"]:active, .inputsmall[name="subject"]:focus, .inputmedium[name="subject"]:active, .inputmedium[name="subject"]:focus, .sbox-input[name="text"]:active, .sbox-input[name="text"]:focus {
+    background-color: rgb(240, 240, 240);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: rgb(154, 154, 154);
+    border-bottom-color: rgb(154, 154, 154);
+    border-left-color: rgb(154, 154, 154);
+    border-right-color: rgb(154, 154, 154);
 }
- @media only screen and (max-width:750px) {
-	 input[name="avatar"] {
-		 text-align: left;
-	}
+
+@media only screen and (max-width: 750px) {
+    input[name="avatar"] {
+        text-align: left;
+    }
 }
+
 /* inputs - name - end */

@@ -1,186 +1,201 @@
 ﻿/* ulist */
- .m-ulist form, .m-ulist p {
-	 width: 100%;
-	 clear: both;
-	 float: left;
-	 display: inline-block;
+.m-ulist form, .m-ulist p {
+    width: 100%;
+    clear: both;
+    float: left;
+    display: inline-block;
 }
- .m-ulist .bborder {
-	 width: 100%;
+
+.m-ulist .bborder {
+    width: 100%;
 }
- .m-ulist strong {
-	 padding-top: 7px;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 5px;
-	 vertical-align: middle;
-	 float: left;
-	 display: block;
+
+.m-ulist strong {
+    padding-top: 7px;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 5px;
+    vertical-align: middle;
+    float: left;
+    display: block;
 }
- .widetable {
-	 width: 100%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 float: left;
-	 display: inline-block;
+
+.widetable {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    float: left;
+    display: inline-block;
 }
- .widetable tbody {
-	 background-color: rgb(221, 221, 221);
-	 color: #666666;
-	 width: 100%;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 1px;
-	 padding-right: 1px;
-	 float: left;
-	 display: inline-block;
+
+.widetable tbody {
+    background-color: rgb(221, 221, 221);
+    color: #666666;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    float: left;
+    display: inline-block;
 }
- .widetable tr {
-	 width: 100%;
-	 float: left;
-	 display: inline-block;
+
+.widetable tr {
+    width: 100%;
+    float: left;
+    display: inline-block;
 }
- .widetable td {
-	 background-color: rgb(255, 255, 255);
-	 color: #666666;
-	 width: 50%;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 margin-top: 0;
-	 margin-bottom: 1px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 float: left;
-	 display: inline-block;
+
+.widetable td {
+    background-color: rgb(255, 255, 255);
+    color: #666666;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0;
+    margin-bottom: 1px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    float: left;
+    display: inline-block;
 }
- .widetable th {
-	 color: #000000;
-	 text-shadow: 1px 1px 0 #FFFFFF;
-	 text-align: left;
-	 width: 50%;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 margin-top: 0;
-	 margin-bottom: 2px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 float: left;
-	 display: inline-block;
+
+.widetable th {
+    color: #000000;
+    text-shadow: 1px 1px 0 #FFFFFF;
+    text-align: left;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 0;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    float: left;
+    display: inline-block;
 }
- .widetable a {
-	 color: #666666;
+
+.widetable a {
+    color: #666666;
 }
- .widetable a:hover {
-	 color: #004080;
+
+.widetable a:hover {
+    color: #004080;
 }
- @media only screen and (max-width:470px) {
-	 .widetable {
-		 padding-top: 0;
-		 padding-bottom: 0;
-		 padding-left: 0;
-		 padding-right: 0;
-		 border-top-width: 0;
-		 border-right-width: 0;
-		 border-bottom-width: 0;
-		 border-left-width: 0;
-		 border-top-style: none;
-		 border-right-style: none;
-		 border-bottom-style: none;
-		 border-left-style: none;
-		 border-top-color: currentcolor;
-		 border-right-color: currentcolor;
-		 border-bottom-color: currentcolor;
-		 border-left-color: currentcolor;
-	}
-	 .widetable tbody {
-		 background-color: transparent;
-	}
-	 .widetable tr {
-		 border-top-width: 0;
-		 border-bottom-width: 1px;
-		 border-left-width: 0;
-		 border-right-width: 0;
-		 border-top-style: none;
-		 border-bottom-style: solid;
-		 border-left-style: none;
-		 border-right-style: none;
-		 border-top-color: currentcolor;
-		 border-bottom-color: rgb(216, 217, 218);
-		 border-left-color: currentcolor;
-		 border-right-color: currentcolor;
-	}
-	 .widetable td {
-		 font-size: 12px;
-		 width: 100%;
-		 margin-top: 0;
-		 margin-bottom: 0;
-		 margin-left: 0;
-		 margin-right: 0;
-		 border-top-width: 0;
-		 border-right-width: 0;
-		 border-bottom-width: 0;
-		 border-left-width: 0;
-		 border-top-style: none;
-		 border-right-style: none;
-		 border-bottom-style: none;
-		 border-left-style: none;
-		 border-top-color: currentcolor;
-		 border-right-color: currentcolor;
-		 border-bottom-color: currentcolor;
-		 border-left-color: currentcolor;
-	}
-	 .widetable th {
-		 display: none;
-	}
+
+@media only screen and (max-width: 470px) {
+    .widetable {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    }
+
+    .widetable tbody {
+        background-color: transparent;
+    }
+
+    .widetable tr {
+        border-top-width: 0;
+        border-bottom-width: 1px;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-top-style: none;
+        border-bottom-style: solid;
+        border-left-style: none;
+        border-right-style: none;
+        border-top-color: currentcolor;
+        border-bottom-color: rgb(216, 217, 218);
+        border-left-color: currentcolor;
+        border-right-color: currentcolor;
+    }
+
+    .widetable td {
+        font-size: 12px;
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-bottom-width: 0;
+        border-left-width: 0;
+        border-top-style: none;
+        border-right-style: none;
+        border-bottom-style: none;
+        border-left-style: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+    }
+
+    .widetable th {
+        display: none;
+    }
 }
+
 /* ulist - end */

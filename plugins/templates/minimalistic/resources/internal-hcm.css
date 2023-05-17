@@ -1,195 +1,212 @@
 ﻿/* hcm - e-mail */
- form[name*="mform"] {
-	 margin-top: 0;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
+form[name*="mform"] {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
- form[name*="mform"] th {
-	 margin-top: 0;
-	 margin-bottom: 5px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: block;
+
+form[name*="mform"] th {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: block;
 }
- @media only screen and (max-width:750px) {
-	 form[name*="mform"] {
-		 width: 100%;
-		 float: left;
-		 display: inline-block;
-	}
-	 form[name*="mform"] tr {
-		 padding-bottom: 5px;
-	}
+
+@media only screen and (max-width: 750px) {
+    form[name*="mform"] {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+
+    form[name*="mform"] tr {
+        padding-bottom: 5px;
+    }
 }
- @media only screen and (max-width:450px) {
-	 form[name*="mform"], form[name*="mform"] table, form[name*="mform"] tbody, form[name*="mform"] tr, form[name*="mform"] td {
-		 width: 100%;
-		 float: left;
-		 display: inline-block;
-	}
-	 form[name*="mform"] tr {
-		 margin-top: 5px;
-		 margin-bottom: 0;
-		 margin-left: 0;
-		 margin-right: 0;
-	}
+
+@media only screen and (max-width: 450px) {
+    form[name*="mform"], form[name*="mform"] table, form[name*="mform"] tbody, form[name*="mform"] tr, form[name*="mform"] td {
+        width: 100%;
+        float: left;
+        display: inline-block;
+    }
+
+    form[name*="mform"] tr {
+        margin-top: 5px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+
 /* hcm - e-mail - end */
 /* hcm - e-mail for "box" */
- .box-item form[name*="mform"], .box-item form[name*="mform"] table, .box-item form[name*="mform"] tbody, .box-item form[name*="mform"] tr, .box-item form[name*="mform"] td {
-	 width: 100%;
-	 float: left;
-	 display: inline-block;
+.box-item form[name*="mform"], .box-item form[name*="mform"] table, .box-item form[name*="mform"] tbody, .box-item form[name*="mform"] tr, .box-item form[name*="mform"] td {
+    width: 100%;
+    float: left;
+    display: inline-block;
 }
- .box-item form[name*="mform"] th {
-	 margin-top: 0;
-	 margin-bottom: 5px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 display: block;
+
+.box-item form[name*="mform"] th {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    display: block;
 }
- .box-item form[name*="mform"] tr {
-	 margin-top: 5px;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
+
+.box-item form[name*="mform"] tr {
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
- .box-item form[name*="mform"] input[type="submit"] {
-	 width: 100%;
-	 padding-top: 7px;
-	 padding-bottom: 7px;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 2px;
-	 margin-bottom: 2px;
-	 margin-left: 0;
-	 margin-right: 0;
-	 float: left;
-	 clear: both;
-	 display: inline-block;
+
+.box-item form[name*="mform"] input[type="submit"] {
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    float: left;
+    clear: both;
+    display: inline-block;
 }
+
 /* hcm - e-mail for "box" - end */
 /* hcm - new comments (recentposts + articles) for "box" */
- .box-item .list-item {
-	 margin-top: 0;
-	 margin-bottom: 10px;
-	 margin-left: 0;
-	 margin-right: 0;
+.box-item .list-item {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
 }
- .box-item .list-title {
-	 background-color: transparent;
-	 padding-top: 0;
-	 padding-bottom: 0;
-	 padding-left: 0;
-	 padding-right: 0;
-	 margin-top: 0;
-	 margin-bottom: 0;
-	 margin-left: 0;
-	 margin-right: 0;
-	 -webkit-margin-before: 0;
-	 -webkit-margin-after: 0;
-	 -webkit-margin-start: 0;
-	 -webkit-margin-end: 0;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 border-top-left-radius: 0;
-	 border-top-right-radius: 0;
-	 border-bottom-right-radius: 0;
-	 border-bottom-left-radius: 0;
-	 box-shadow: none;
+
+.box-item .list-title {
+    background-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    box-shadow: none;
 }
- .box-item .list-title a {
-	 background-color: transparent;
-	 background-image: url("images/menu/menu_a.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 0;
-	 background-position-y: center;
-	 background-size: 8px auto;
-	 font-size: 16px;
-	 font-weight: bold;
-	 padding-top: 15px;
-	 padding-bottom: 15px;
-	 padding-left: 15px;
-	 padding-right: 15px;
+
+.box-item .list-title a {
+    background-color: transparent;
+    background-image: url("images/menu/menu_a.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0;
+    background-position-y: center;
+    background-size: 8px auto;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
- .box-item .list-title a:hover {
-	 background-color: transparent;
-	 background-image: url("images/menu/menu_a.png");
-	 background-repeat: no-repeat;
-	 background-attachment: scroll;
-	 background-clip: border-box;
-	 background-origin: padding-box;
-	 background-position-x: 0;
-	 background-position-y: center;
-	 background-size: 8px auto;
-	 color: #576F82;
-	 font-size: 16px;
-	 font-weight: bold;
-	 text-shadow: 0 1px 0 #FFFFFF;
-	 padding-top: 15px;
-	 padding-bottom: 15px;
-	 padding-left: 15px;
-	 padding-right: 15px;
+
+.box-item .list-title a:hover {
+    background-color: transparent;
+    background-image: url("images/menu/menu_a.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0;
+    background-position-y: center;
+    background-size: 8px auto;
+    color: #576F82;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
- .box-item .list-perex {
-	 background-color: transparent;
-	 font-size: 14px;
-	 line-height: 120%;
-	 padding-top: 5px !important;
-	 padding-bottom: 5px !important;
-	 padding-left: 5px !important;
-	 padding-right: 5px !important;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 box-shadow: none;
+
+.box-item .list-perex {
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 120%;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    box-shadow: none;
 }
- .box-item .list-perex-image {
-	 width: 60px;
+
+.box-item .list-perex-image {
+    width: 60px;
 }
- .box-item ul.list-info {
-	 background-color: transparent;
-	 padding-top: 5px;
-	 padding-bottom: 5px;
-	 padding-left: 5px;
-	 padding-right: 5px;
-	 border-top-width: 0;
-	 border-right-width: 0;
-	 border-bottom-width: 0;
-	 border-left-width: 0;
-	 border-top-style: none;
-	 border-right-style: none;
-	 border-bottom-style: none;
-	 border-left-style: none;
-	 border-top-color: currentcolor;
-	 border-right-color: currentcolor;
-	 border-bottom-color: currentcolor;
-	 border-left-color: currentcolor;
-	 box-shadow: none;
+
+.box-item ul.list-info {
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    box-shadow: none;
 }
+
 /* hcm - new comments (recentposts + articles) for "box" - end */
