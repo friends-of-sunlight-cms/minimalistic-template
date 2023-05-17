@@ -1,8 +1,8 @@
 {
   "$schema": "../../../system/schema/template.json",
-  "name": "Basic-Motive-Minimalize",
-  "description": "Type Blog - Testing",
-  "version": "8.0",
+  "name": "Minimalistic",
+  "description": "Minimalist responsive template",
+  "version": "0.9.0",
   "url": "http://www.test-template.jednoduse.cz/",
   "responsive": true,
   "environment": {
