@@ -11,7 +11,13 @@
   },
   "layouts": {
     "default": {
-      "template": "layouts/default.php"
+      "template": "layouts/default.php",
+      "slots": [
+        "left", "right"
+      ]
+    },
+    "landing": {
+      "template": "layouts/landing.php"
     },
     "column_left": {
       "template": "layouts/cl.php",

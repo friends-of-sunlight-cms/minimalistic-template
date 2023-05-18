@@ -1,8 +1,10 @@
 <?php
 
 return [
+    'landing.label' => 'vstupní (bez sloupců)',
     'default.label' => 'výchozí',
-    'default.slot.none' => 'bez sloupců',
+    'default.slot.left' => 'levý sloupec',
+    'default.slot.right' => 'pravý sloupec',
     'column_left.label' => 'column_left',
     'column_left.slot.left' => 'levý sloupec',
     'column_left_cb.label' => 'column_left_cb',

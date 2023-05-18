@@ -1,8 +1,10 @@
 <?php
 
 return [
+    'landing.label' => 'landing (without columns)',
     'default.label' => 'default',
-    'default.slot.none' => 'without column',
+    'default.slot.left' => 'left column',
+    'default.slot.right' => 'right column',
     'column_left.label' => 'column_left',
     'column_left.slot.left' => 'left column',
     'column_left_cb.label' => 'column_left_cb',
