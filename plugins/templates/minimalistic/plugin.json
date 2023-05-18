@@ -1,10 +1,11 @@
 {
   "$schema": "../../../system/schema/template.json",
   "name": "Minimalistic",
-  "description": "Minimalist responsive template",
+  "description": "Minimalist responsive template (Modified version of the template by CzechXicht)",
   "version": "0.9.0",
   "class": "TemplatePlugin",
-  "url": "http://www.test-template.jednoduse.cz/",
+  "url": "https://github.com/friends-of-sunlight-cms/",
+  "author": "Friends of Sunlight CMS",
   "responsive": true,
   "environment": {
     "system": "^8.0"
