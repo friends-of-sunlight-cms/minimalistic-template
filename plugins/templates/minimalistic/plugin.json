@@ -3,6 +3,7 @@
   "name": "Minimalistic",
   "description": "Minimalist responsive template",
   "version": "0.9.0",
+  "class": "TemplatePlugin",
   "url": "http://www.test-template.jednoduse.cz/",
   "responsive": true,
   "environment": {
