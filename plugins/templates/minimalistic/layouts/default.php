@@ -17,6 +17,7 @@ require __DIR__ . '/include/header.php';
                 </div>
                 <div class="content-overflow-check">
                     <div class="column-content">
+                        <?php require __DIR__ . '/include/breadcrumbs.php'; ?>
                         <div class="heading">
                             <?= Template::heading() ?>
                         </div>
