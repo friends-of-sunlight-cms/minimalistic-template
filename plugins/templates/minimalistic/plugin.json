@@ -14,7 +14,8 @@
     "default": {
       "template": "layouts/default.php",
       "slots": [
-        "left", "right"
+        "left",
+        "right"
       ]
     },
     "landing": {

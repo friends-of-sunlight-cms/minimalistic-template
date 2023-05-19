@@ -6,10 +6,6 @@ defined('SL_ROOT') or exit;
 
 require __DIR__ . '/include/header.php';
 ?>
-    <div class="section-column-top">
-        <div class="bg-color">
-        </div>
-    </div>
     <div class="section-content">
         <div class="row">
             <div class="content">
@@ -26,10 +22,6 @@ require __DIR__ . '/include/header.php';
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="section-column-bottom">
-        <div class="bg-color">
         </div>
     </div>
 <?php
