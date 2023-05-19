@@ -888,7 +888,7 @@ div.post:target div.post-head {
 }
 
 .post-answer {
-    margin: 20px 0;
+    margin: 20px 0 20px 50px;
     float: left;
 }
 
