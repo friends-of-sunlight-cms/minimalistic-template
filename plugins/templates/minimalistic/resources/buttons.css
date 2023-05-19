@@ -496,7 +496,7 @@ input[type="reset"]:active, input[type="reset"]:focus {
     border-bottom-left-radius: 2px;
 }
 
-input[name="download_personal_data"] {
+input[name="download"] {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
@@ -531,7 +531,7 @@ input[name="download_personal_data"] {
     transition-delay: 0s;
 }
 
-input[name="download_personal_data"]:hover {
+input[name="download"]:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
     padding-top: 8px;
@@ -560,7 +560,7 @@ input[name="download_personal_data"]:hover {
     border-bottom-left-radius: 2px;
 }
 
-input[name="download_personal_data"]:active, input[name="download_personal_data"]:focus {
+input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
     padding-top: 8px;
@@ -604,7 +604,7 @@ input[name="download_personal_data"]:active, input[name="download_personal_data"
         padding-right: 8px;
     }
 
-    input[name="download_personal_data"], input[name="download_personal_data"]:hover, input[name="download_personal_data"]:active, input[name="download_personal_data"]:focus {
+    input[name="download"], input[name="download"]:hover, input[name="download"]:active, input[name="download"]:focus {
         padding-top: 8px;
         padding-bottom: 8px;
         padding-left: 8px;

@@ -174,18 +174,6 @@ a:hover {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    border-top-width: 0;
-    border-bottom-width: 1px;
-    border-left-width: 0;
-    border-right-width: 0;
-    border-top-style: none;
-    border-bottom-style: solid;
-    border-left-style: none;
-    border-right-style: none;
-    border-top-color: currentcolor;
-    border-bottom-color: rgb(195, 195, 195);
-    border-left-color: currentcolor;
-    border-right-color: currentcolor;
     float: left;
     display: block;
 }
@@ -423,21 +411,6 @@ a:hover {
     display: none;
 }
 
-.section-column-top {
-    width: 100%;
-    height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    float: left;
-    display: block;
-}
-
 .section-content {
     width: 100%;
     padding-top: 18px;
@@ -602,21 +575,6 @@ h2.box-title {
     border-bottom-color: rgb(17, 17, 17);
     border-left-color: currentcolor;
     border-right-color: currentcolor;
-}
-
-.section-column-bottom {
-    width: 100%;
-    height: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    float: left;
-    display: block;
 }
 
 .section-footer {
