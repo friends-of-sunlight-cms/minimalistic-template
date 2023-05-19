@@ -1,4 +1,4 @@
-/* ulist */
+﻿/* ulist */
 .m-ulist form, .m-ulist p {
     width: 100%;
     clear: both;
@@ -11,14 +11,8 @@
 }
 
 .m-ulist strong {
-    padding-top: 7px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 7px 0 0;
+    margin: 0 5px 0 0;
     vertical-align: middle;
     float: left;
     display: block;
@@ -26,14 +20,8 @@
 
 .widetable {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 10px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -54,10 +42,7 @@
     background-color: rgb(221, 221, 221);
     color: #666666;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 1px;
-    padding-right: 1px;
+    padding: 0 1px;
     float: left;
     display: inline-block;
 }
@@ -72,14 +57,8 @@
     background-color: rgb(255, 255, 255);
     color: #666666;
     width: 50%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 1px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0 0 1px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -101,14 +80,8 @@
     text-shadow: 1px 1px 0 #FFFFFF;
     text-align: left;
     width: 50%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0 0 2px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -135,10 +108,7 @@
 
 @media only screen and (max-width: 470px) {
     .widetable {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         border-top-width: 0;
         border-right-width: 0;
         border-bottom-width: 0;
@@ -175,10 +145,7 @@
     .widetable td {
         font-size: 12px;
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
         border-top-width: 0;
         border-right-width: 0;
         border-bottom-width: 0;

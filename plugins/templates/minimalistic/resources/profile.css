@@ -1,4 +1,4 @@
-/* profile */
+﻿/* profile */
 .m-profile tbody, .m-profile tr {
     width: 100%;
 }
@@ -10,22 +10,13 @@
 .m-profile .profiletable th {
     color: #000000;
     width: 50%;
-    padding-top: 2px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2px 0 0;
 }
 
 .m-profile .profiletable td {
     color: #435B49;
-    padding-top: 2px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 2px 0 0;
+    margin: 0 auto;
 }
 
 .m-profile .profiletable, .m-profile .profiletable tr {
@@ -47,14 +38,8 @@
 .wlimiter {
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 110px;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px 0 5px 110px;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -74,14 +59,8 @@
 .wlimiter table, .wlimiter table.profiletable, .wlimiter table.profiletable tbody, .wlimiter table.profiletable tbody tr {
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     display: inline-block;
@@ -93,14 +72,8 @@
     font-size: 15px;
     text-overflow: ellipsis;
     max-width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 5px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 2px;
@@ -134,14 +107,8 @@
     text-shadow: 1px 1px 0 #FFFFFF;
     text-overflow: ellipsis;
     max-width: 100%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    padding-right: 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px 2px 2px 15px;
+    margin: 5px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -154,10 +121,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     overflow-x: hidden;
     overflow-y: hidden;
     white-space: pre-wrap;
@@ -186,14 +150,8 @@
     text-shadow: 1px 1px 0 #FFFFFF;
     text-overflow: ellipsis;
     max-width: 100%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 15px;
-    padding-right: 2px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px 2px 2px 15px;
+    margin: 5px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -206,10 +164,7 @@
     border-bottom-color: rgb(100, 100, 100);
     border-left-color: rgb(100, 100, 100);
     border-right-color: rgb(100, 100, 100);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -236,10 +191,7 @@
     }
 
     .wlimiter {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 5px 0;
     }
 
     .m-profile .profiletable tr, .m-profile .profiletable td {
@@ -263,36 +215,24 @@
 .m-settings .profiletable th {
     text-align: left;
     width: 200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 .m-settings .profiletable td {
     color: #435B49;
-    padding-top: 2px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 2px 0 0;
 }
 
 .m-settings .profiletable {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
 }
 
 .m-settings .avatar {
     width: 105px;
     max-width: 100%;
     min-width: 90px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 5px 5px 5px 0;
     float: left;
 }
 
@@ -317,14 +257,8 @@
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0;
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -356,20 +290,14 @@
     background-size: 8px auto;
     color: #0E3672;
     text-overflow: ellipsis;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 5px;
+    padding: 0 5px 0 15px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 .m-profile-posts .post {
     border-top-width: 0;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
     border-right-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -393,10 +321,7 @@
 
 .m-profile-posts .post-info {
     font-family: 'IBM Plex Sans Condensed', sans-serif;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 5px;
+    padding: 0 5px 0 15px;
     float: right;
 }
 
@@ -404,14 +329,8 @@
     background-color: rgb(248, 249, 250);
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px 10px;
+    margin: 0;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -453,14 +372,8 @@
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0;
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -500,10 +413,7 @@
     font-size: 17px;
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     text-overflow: ellipsis;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 5px;
+    padding: 0 5px 0 15px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -516,14 +426,8 @@
     background-color: rgb(248, 249, 250);
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px !important;
+    margin: 0;
     border-top-width: 0;
     border-right-width: 1px;
     border-bottom-width: 0;
@@ -544,24 +448,15 @@
 
 .m-profile-arts .list-perex-image {
     max-height: 60px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
     float: left;
     display: block;
 }
 
 .m-profile-arts ul.list-info {
     background-color: rgb(239, 240, 241);
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px;
+    margin: 0 0 5px;
 }
 
 /* profile - arts - end */

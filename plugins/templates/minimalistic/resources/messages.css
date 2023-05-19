@@ -1,14 +1,8 @@
-/* messages */
+﻿/* messages */
 .messages-menu {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 5px;
     float: left;
     display: inline-block;
 }
@@ -17,14 +11,8 @@
     background-color: rgb(242, 242, 242);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 15px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -37,10 +25,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     cursor: pointer;
     transition-property: all;
@@ -52,14 +37,8 @@
 .m-messages .button:hover {
     background-color: rgb(232, 232, 232);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 15px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -72,24 +51,15 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
 }
 
 .m-messages .button:active, .m-messages .button:focus {
     background-color: rgb(232, 232, 232);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 15px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -102,10 +72,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
 }
 
@@ -132,10 +99,7 @@
 .messages-table td {
     background-color: rgb(255, 255, 255);
     color: #333333;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -153,10 +117,7 @@
 .messages-table th {
     background-color: rgb(231, 231, 231);
     color: #666666;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -177,10 +138,7 @@
 
 @media only screen and (max-width: 470px) {
     .m-messages .button, .m-messages .button:hover, .m-messages .button:active, .m-messages .button:focus {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 }
 

@@ -1,10 +1,7 @@
-/* sbox */
+﻿/* sbox */
 .sbox, .sbox-content {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     float: left;
 }
 
@@ -15,14 +12,8 @@
 .sbox-item {
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 0;
+    margin: 10px 0;
     border-top-width: 1px;
     border-bottom-width: 0;
     border-left-width: 0;
@@ -43,14 +34,8 @@
 .sbox-item .icon {
     width: 14px;
     height: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 1px;
-    margin-right: 5px;
+    padding: 0;
+    margin: 0 5px 0 1px;
 }
 
 .sbox-posts {
@@ -62,38 +47,20 @@
 }
 
 .sbox form {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .sbox table {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .sbox tr {
     width: 100%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 1px 0;
+    margin: 0;
 }
 
 .sbox table th {
@@ -109,10 +76,7 @@
 }
 
 .sbox .cimage {
-    margin-top: 2px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 2px 0 0;
     display: block;
 }
 

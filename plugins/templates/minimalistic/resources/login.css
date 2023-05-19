@@ -1,11 +1,8 @@
-/* login, registration, lost password */
+﻿/* login, registration, lost password */
 .login_form, form.regform, form.lostpassform, form.fullsearchform {
     text-align: left;
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 10px 0 0;
     float: left;
     display: inline-block;
 }
@@ -13,18 +10,12 @@
 .login_form th {
     text-align: left !important;
     width: 200px !important;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 5px !important;
+    margin: 0 5px 0 0 !important;
 }
 
 .login_form table, .regform table, .lostpassform table, .postform table, .m-messages table {
     background-color: rgb(246, 246, 247);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -37,10 +28,7 @@
     border-bottom-color: rgb(217, 217, 217);
     border-left-color: rgb(217, 217, 217);
     border-right-color: rgb(217, 217, 217);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .m-reg .bborder, .m-lostpass .bborder {
@@ -49,19 +37,11 @@
 
 .login-form-links {
     background-color: rgb(244, 244, 244);
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
+    list-style: none outside none;
     line-height: 110%;
     width: 100%;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 11px 15px;
+    margin: 5px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -74,10 +54,7 @@
     border-bottom-color: rgb(216, 216, 216);
     border-left-color: rgb(216, 216, 216);
     border-right-color: rgb(216, 216, 216);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     display: inline-block;
 }
@@ -85,10 +62,7 @@
 .login-form-links li, .m-login .login-form-links li {
     width: auto;
     height: auto;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     clear: both;
     float: left;
     display: block;
@@ -101,10 +75,7 @@
 .regform th {
     text-align: left;
     width: 200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 .regform td .inputsmall {
@@ -125,14 +96,8 @@
     font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 22px;
     font-weight: 100;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 10px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 2px;
@@ -150,19 +115,13 @@
 .lostpassform th {
     text-align: left;
     width: 200px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 .m-login p {
     text-align: left;
     width: 100%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0.5em 0;
     clear: both;
     float: left;
     display: inline-block;
@@ -189,10 +148,7 @@
 }
 
 .m-login li {
-    padding-top: 0;
-    padding-bottom: 3px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 3px;
 }
 
 @media only screen and (max-width: 750px) {
@@ -204,19 +160,13 @@
     }
 
     .login_form th, .regform th, .lostpassform th, .postform th, .m-messages th {
-        padding-top: 0;
-        padding-bottom: 5px;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0 0 5px;
     }
 }
 
 @media only screen and (max-width: 470px) {
     .login-form-links {
-        padding-top: 15px;
-        padding-bottom: 15px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 15px;
     }
 
     .login-form-links li {
@@ -227,10 +177,7 @@
 
     .regform p label {
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 10px;
         float: left;
         display: inline-block;
     }

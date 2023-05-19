@@ -1,16 +1,7 @@
 .login-form-link-reg {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     display: block;
 }
@@ -19,10 +10,7 @@
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -35,10 +23,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -50,10 +35,7 @@
 .login-form-link-reg a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -66,19 +48,13 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .login-form-link-reg a:active, .login-form-link-reg a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -91,25 +67,13 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .login-form-link-lostpass {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     display: block;
 }
@@ -118,10 +82,7 @@
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -134,10 +95,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -149,10 +107,7 @@
 .login-form-link-lostpass a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -165,19 +120,13 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .login-form-link-lostpass a:active, .login-form-link-lostpass a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -190,10 +139,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 @media only screen and (max-width: 470px) {
@@ -210,14 +156,8 @@
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -230,10 +170,7 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     float: left;
     display: block;
@@ -246,14 +183,8 @@
 .m-profile .button:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -266,23 +197,14 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .m-profile .button:active, .m-profile .button:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -295,18 +217,12 @@
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 @media only screen and (max-width: 470px) {
     .m-profile .button, .m-profile .button:hover, .m-profile .button:active, .m-profile .button:focus {
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 7px;
-        padding-right: 7px;
+        padding: 7px;
     }
 }
 
@@ -314,14 +230,8 @@ input[type="submit"] {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -334,10 +244,7 @@ input[type="submit"] {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.15s;
@@ -348,14 +255,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -368,23 +269,14 @@ input[type="submit"]:hover {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 input[type="submit"]:active, input[type="submit"]:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -397,24 +289,15 @@ input[type="submit"]:active, input[type="submit"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 input[type="reset"] {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -427,10 +310,7 @@ input[type="reset"] {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.15s;
@@ -441,14 +321,8 @@ input[type="reset"] {
 input[type="reset"]:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -461,23 +335,14 @@ input[type="reset"]:hover {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 input[type="reset"]:active, input[type="reset"]:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -490,24 +355,15 @@ input[type="reset"]:active, input[type="reset"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 input[name="download"] {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -520,10 +376,7 @@ input[name="download"] {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.15s;
@@ -534,14 +387,8 @@ input[name="download"] {
 input[name="download"]:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -554,23 +401,14 @@ input[name="download"]:hover {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -583,41 +421,26 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 @media only screen and (max-width: 470px) {
     input[type="submit"], input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 
     input[type="reset"], input[type="reset"]:hover, input[type="reset"]:active, input[type="reset"]:focus {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 
     input[name="download"], input[name="download"]:hover, input[name="download"]:active, input[name="download"]:focus {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 }
 
 /* backlink */
 .backlink {
-    margin-top: 0;
-    margin-bottom: 15px;
-    margin-left: 0;
-    margin-right: 20px;
+    margin: 0 20px 15px 0;
     clear: both;
     float: left;
     display: block;
@@ -626,10 +449,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .backlink a {
     background-color: rgb(230, 230, 230);
     color: #333333;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -642,10 +462,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     display: block;
     transition-property: all;
@@ -657,10 +474,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .backlink a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -673,10 +487,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     display: block;
 }
@@ -684,10 +495,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .backlink a:active, .backlink a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -700,10 +508,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     display: block;
 }
@@ -712,10 +517,7 @@ input[name="download"]:active, input[name="download"]:focus {
     .backlink a, .backlink a:hover, .backlink a:active, .backlink a:focus {
         text-align: center;
         width: 100%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 
     .backlink {
@@ -726,30 +528,15 @@ input[name="download"]:active, input[name="download"]:focus {
 /* backlink - end */
 .sbox input[type="submit"], .sbox input[type="submit"]:hover, .sbox input[type="submit"]:active, .sbox input[type="submit"]:focus {
     width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 5px 0;
 }
 
 /* user settings button */
 .user-settings-action-account {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     clear: both;
     display: block;
@@ -759,10 +546,7 @@ input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -775,10 +559,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -790,10 +571,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .user-settings-action-account a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -806,19 +584,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-account a:active, .user-settings-action-account a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -831,25 +603,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-password {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     clear: both;
     display: block;
@@ -859,10 +619,7 @@ input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -875,10 +632,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -890,10 +644,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .user-settings-action-password a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -906,19 +657,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-password a:active, .user-settings-action-password a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -931,25 +676,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-profile {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     clear: both;
     display: block;
@@ -959,10 +692,7 @@ input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -975,10 +705,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -990,10 +717,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .user-settings-action-profile a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1006,19 +730,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-profile a:active, .user-settings-action-profile a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1031,25 +749,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-download {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     clear: both;
     display: block;
@@ -1059,10 +765,7 @@ input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1075,10 +778,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -1090,10 +790,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .user-settings-action-download a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1106,19 +803,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-download a:active, .user-settings-action-download a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1131,25 +822,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-remove {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 0;
+    margin: 4px 0;
+    border-radius: 2px;
     float: left;
     clear: both;
     display: block;
@@ -1159,10 +838,7 @@ input[name="download"]:active, input[name="download"]:focus {
     background-color: rgb(230, 230, 230);
     color: #333333;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1175,10 +851,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
     float: left;
     display: block;
     transition-property: all;
@@ -1190,10 +863,7 @@ input[name="download"]:active, input[name="download"]:focus {
 .user-settings-action-remove a:hover {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1206,19 +876,13 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 .user-settings-action-remove a:active, .user-settings-action-remove a:focus {
     background-color: rgb(220, 220, 220);
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1231,10 +895,7 @@ input[name="download"]:active, input[name="download"]:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 0;
+    border-radius: 0 2px 2px 0;
 }
 
 /* user settings button - end */

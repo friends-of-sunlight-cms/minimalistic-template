@@ -1,4 +1,4 @@
-/* navigation */
+﻿/* navigation */
 .breadcrumbs {
     color: #576F82;
     font-size: 18px;
@@ -9,14 +9,8 @@
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 5px;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: none;
@@ -25,14 +19,8 @@
 }
 
 .breadcrumbs ul {
-    padding-top: 0;
-    padding-bottom: 6px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 6px;
+    margin: 0;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 1px;
@@ -50,17 +38,9 @@
 
 .breadcrumbs li {
     font-size: 17px;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    list-style: none outside none;
+    padding: 0;
+    margin: 0;
     float: left;
 }
 
@@ -76,10 +56,7 @@
     background-size: 8px auto;
     color: #576F82;
     line-height: 110%;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 10px;
+    padding: 5px 10px 10px 16px;
     transition-property: all;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -97,10 +74,7 @@
     background-position-y: center;
     background-size: 8px auto;
     color: #111111;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 10px;
+    padding: 5px 10px 10px 16px;
 }
 
 .breadcrumbs a:active, .breadcrumbs a:focus {
@@ -114,22 +88,13 @@
     background-position-y: center;
     background-size: 8px auto;
     color: #111111;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 10px;
+    padding: 5px 10px 10px 16px;
 }
 
 /* navigation end */
 .bborder {
-    padding-top: 0;
-    padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 12px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 8px;
+    margin: 0 0 12px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 1px;
@@ -152,14 +117,8 @@
     text-overflow: ellipsis;
     width: 100%;
     min-width: 10px;
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 45px;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 13px 15px 13px 45px;
+    margin: 0 0 20px;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -189,10 +148,7 @@
     border-bottom-color: rgb(203, 205, 213);
     border-left-color: rgb(203, 205, 213);
     border-right-color: rgb(203, 205, 213);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
 }
 
 .message-warn {
@@ -218,10 +174,7 @@
     border-bottom-color: rgb(216, 197, 165);
     border-left-color: rgb(216, 197, 165);
     border-right-color: rgb(216, 197, 165);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
 }
 
 .message-err {
@@ -247,22 +200,13 @@
     border-bottom-color: rgb(235, 204, 209);
     border-left-color: rgb(235, 204, 209);
     border-right-color: rgb(235, 204, 209);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
 }
 
 .paging {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 10px 0 15px;
     float: left;
     display: inline-block;
 }
@@ -270,14 +214,8 @@
 .paging-label {
     color: #000000;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    padding-left: 0;
-    padding-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 4px 8px 4px 0;
+    margin: 4px 5px 2px 0;
     clear: none;
     float: left;
     display: block;
@@ -288,14 +226,8 @@
     color: #000000;
     text-shadow: 0 1px 0 #FFFFFF;
     line-height: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 5px 8px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -308,10 +240,7 @@
     border-bottom-color: rgb(192, 192, 192);
     border-left-color: rgb(192, 192, 192);
     border-right-color: rgb(192, 192, 192);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -326,14 +255,8 @@
     color: #000000;
     text-shadow: 0 1px 0 #FFFFFF;
     line-height: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 5px 8px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -346,10 +269,7 @@
     border-bottom-color: rgb(162, 162, 162);
     border-left-color: rgb(162, 162, 162);
     border-right-color: rgb(162, 162, 162);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -359,14 +279,8 @@
     background-color: rgb(226, 226, 226);
     color: #000000;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 5px 8px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -379,10 +293,7 @@
     border-bottom-color: rgb(162, 162, 162);
     border-left-color: rgb(162, 162, 162);
     border-right-color: rgb(162, 162, 162);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -392,14 +303,8 @@
     background-color: rgb(210, 210, 210);
     color: #000000;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 5px 8px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -412,10 +317,7 @@
     border-bottom-color: rgb(162, 162, 162);
     border-left-color: rgb(162, 162, 162);
     border-right-color: rgb(162, 162, 162);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -428,28 +330,16 @@
 }
 
 .rsslink, .rsslink a {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0.5em;
-    margin-left: 1em;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 0.5em 1em;
     float: right;
 }
 
 .rsslink .icon, .rsslink-inline .icon {
     width: 14px;
     height: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: right;
 }
 
@@ -460,10 +350,7 @@
 }
 
 p.mini {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
     line-height: 100%;
 }
 
@@ -481,14 +368,8 @@ p.mini {
 
 .ratetable {
     background-color: rgb(238, 238, 238);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 3px;
@@ -508,10 +389,7 @@ p.mini {
 
 .ratetable td {
     text-align: left;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
 }
 
 .ratetable td img {
@@ -532,10 +410,7 @@ p.mini {
 
 .avatartd {
     width: 105px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 5px 5px 5px 0;
 }
 
 .avatar {
@@ -546,10 +421,7 @@ p.mini {
 .hint {
     color: #008000;
     font-size: 12px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 0 4px;
 }
 
 .cimage {
@@ -557,10 +429,7 @@ p.mini {
     max-width: 100%;
     min-width: 180px;
     height: 35px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 5px 0 0;
 }
 
 .inputc {
@@ -571,41 +440,26 @@ p.mini {
     max-width: 100%;
     min-width: 180px;
     height: 35px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 5px 5px 5px 0;
     float: left;
 }
 
 .box-item .cimage {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 5px 0;
 }
 
 @media only screen and (max-width: 380px) {
     .cimage, .inputc {
         width: 100%;
         float: left;
-        margin-top: 5px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 5px 0 0;
         display: inline-block;
     }
 }
 
 .minip {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 4px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 4px;
     display: block;
 }
 
@@ -627,10 +481,7 @@ p.mini {
 
 @media only screen and (max-width: 750px) {
     .ratetable td {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 2px;
-        padding-right: 2px;
+        padding: 0 2px;
     }
 
     .ratetable td img {
@@ -639,22 +490,13 @@ p.mini {
 }
 
 form.postform {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 15px 0;
+    margin: 5px 0;
 }
 
 @media only screen and (max-width: 750px) {
     tr.captcha-row {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 5px 0;
     }
 }
 
@@ -667,17 +509,11 @@ form.postform {
 }
 
 a .icon, .icon {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
 }
 
 .icon {
-    margin-top: -1px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: -1px 0 0;
 }
 
 .text-icon {
@@ -688,46 +524,28 @@ a .icon, .icon {
 }
 
 .left {
-    margin-top: 1px;
-    margin-bottom: 5px;
-    margin-left: 1px;
-    margin-right: 10px;
+    margin: 1px 10px 5px 1px;
     float: left;
 }
 
 .right {
-    margin-top: 1px;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 1px;
+    margin: 1px 1px 5px 10px;
     float: right;
 }
 
 .rpad {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 10px;
+    padding: 0 10px 0 0;
 }
 
 .lpad {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 10px;
-    padding-right: 0;
+    padding: 0 0 0 10px;
 }
 
 @media only screen and (max-width: 750px) {
     .rpad, td.rpad {
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0;
+        margin: 0;
         display: inline-block;
     }
 }
@@ -738,10 +556,7 @@ a .icon, .icon {
     width: 100%;
     min-width: 20px;
     height: 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 2px;
-    margin-right: 2px;
+    margin: 5px 2px;
 }
 
 .hr hr {

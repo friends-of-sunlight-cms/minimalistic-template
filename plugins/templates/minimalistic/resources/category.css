@@ -1,4 +1,4 @@
-/* category */
+﻿/* category */
 .list-item {
     width: 100%;
     float: left;
@@ -8,10 +8,7 @@
 .list-title {
     text-overflow: ellipsis;
     width: 100%;
-    margin-top: 15px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 15px 0 0;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -21,33 +18,21 @@
     font-size: 28px;
     font-family: 'Encode Sans Condensed', sans-serif;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5px 0 15px;
 }
 
 .list-title a:hover, .list-title a:focus {
     color: #2E3328;
     font-size: 28px;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 15px 0;
 }
 
 .list-perex {
     text-overflow: ellipsis;
     height: 100%;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px 0 !important;
+    margin: 0 auto;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -55,17 +40,11 @@
 }
 
 .list-perex p {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .list-perex-image {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 10px;
+    margin: 0 10px 0 0;
     float: left;
     display: block;
 }
@@ -76,14 +55,8 @@ ul.list-info {
     text-align: left;
     text-shadow: none;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px 0;
+    margin: 0 auto;
     clear: both;
     display: inline-block;
 }
@@ -92,17 +65,9 @@ ul.list-info li {
     font-size: 11px;
     text-align: left;
     text-shadow: none;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0.5em;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    list-style: none outside none;
+    padding: 0 0.5em 0 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -111,10 +76,7 @@ ul.list-info li {
 
 ul.list-info strong {
     font-weight: bold;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
     float: left;
 }
 
@@ -124,27 +86,15 @@ ul.list-info strong {
 }
 
 .article-navigation {
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px 0 10px;
+    margin: 0;
 }
 
 .article-perex {
     font-style: italic;
     text-overflow: ellipsis;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 0;
+    margin: 0;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -163,48 +113,27 @@ ul.list-info strong {
 
 .article-perex p {
     font-style: italic;
-    padding-top: 0;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 10px;
+    margin: 0;
 }
 
 .article-perex-image {
-    padding-top: 0;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 10px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 10px 10px 0;
+    margin: 0;
     float: left;
 }
 
 .article-content {
     text-overflow: ellipsis;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 .article-footer {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 10px 0 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -225,20 +154,14 @@ ul.list-info strong {
 
 .article-footer td {
     width: 50%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0 20px;
     float: left;
     display: block;
 }
 
 .article-info {
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 0;
+    padding: 10px 0 10px 10px;
     overflow-x: hidden;
     overflow-y: hidden;
     display: inline-block;
@@ -246,14 +169,8 @@ ul.list-info strong {
 
 .article-info td {
     color: #494949;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     display: inline-block;
@@ -268,28 +185,17 @@ ul.list-info strong {
 
 ul.article-info {
     text-align: left;
-    list-style-type: none;
-    list-style-image: none;
-    list-style-position: outside;
+    list-style: none outside none;
     max-width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     display: block;
 }
 
 ul.article-info li {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px;
+    margin: 0;
 }
 
 .article-info a:hover {
@@ -300,14 +206,8 @@ ul.article-info li {
 .article-info .icon {
     width: 14px;
     height: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 5px;
-    margin-right: 5px;
+    padding: 0;
+    margin: 0 5px;
 }
 
 table .article-rating {
@@ -317,10 +217,7 @@ table .article-rating {
 
 .article-rating tbody {
     width: 157px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5px 0;
     box-shadow: none;
     float: left;
     display: block;
@@ -328,10 +225,7 @@ table .article-rating {
 
 .article-rating td {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     float: left;
     display: block;
 }
@@ -345,14 +239,8 @@ table .article-rating {
 .article-rating td input[type="radio"] {
     text-align: left;
     width: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: left;
     display: block;
 }
@@ -360,103 +248,58 @@ table .article-rating {
 .article-rating .icon {
     width: 14px;
     height: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     display: block;
 }
 
 tr .r0 {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px;
+    margin: 0;
     float: left;
     display: block;
 }
 
 tr .r0 td {
     width: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px;
+    margin: 0;
     float: left;
     display: block;
 }
 
 tr .r1 {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 24px;
-    padding-right: 0;
-    margin-top: 1px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px 0 2px 24px;
+    margin: 1px 0 5px;
     float: left;
     display: block;
 }
 
 tr .r1 td {
     width: 20px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px;
+    margin: 0;
     float: left;
     display: block;
 }
 
 .posts-comments {
-    padding-top: 5px;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 32px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px 0 0;
+    margin: 32px 0 0;
 }
 
 .posts h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
 }
 
 @media only screen and (max-width: 750px) {
     .article-info td {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding: 10px;
     }
 
     .article-info {
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         display: inline-block;
     }
 
@@ -471,10 +314,7 @@ tr .r1 td {
     }
 
     table.article-rating {
-        margin-top: 5px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 5px 0 0;
     }
 }
 

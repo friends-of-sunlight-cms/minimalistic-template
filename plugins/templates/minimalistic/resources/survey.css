@@ -1,10 +1,7 @@
-/* survey */
+﻿/* survey */
 .poll {
     width: 100%;
-    margin-top: 0;
-    margin-bottom: 6px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 6px;
     float: left;
     clear: both;
     display: inline-block;
@@ -12,10 +9,7 @@
 
 .poll-content, .poll-content form {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     float: left;
     clear: both;
     display: inline-block;
@@ -25,10 +19,7 @@
     color: #004080;
     text-align: left;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5px 0 10px;
     float: left;
     clear: both;
     display: inline-block;
@@ -40,10 +31,7 @@
 
 .poll-answer {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 7px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0 0 7px;
     float: left;
     clear: both;
     display: inline-block;
@@ -59,14 +47,11 @@
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     height: 5px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 2px;
+    margin: 4px 2px 2px 0;
     border-top-width: 0;
     border-bottom-width: 0;
     border-left-width: 2px;
@@ -89,14 +74,8 @@
 
 .box-item .poll-answer .votebutton {
     width: 100%;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
-    margin-top: 2px;
-    margin-bottom: 6px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 7px;
+    margin: 2px 0 6px;
     float: left;
     clear: both;
     display: inline-block;
@@ -111,10 +90,7 @@
 
     .poll-answer label {
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         float: left;
         display: inline-block;
     }

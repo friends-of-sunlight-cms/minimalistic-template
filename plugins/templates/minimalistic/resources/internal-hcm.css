@@ -1,16 +1,10 @@
-/* hcm - e-mail */
+﻿/* hcm - e-mail */
 form[name*="mform"] {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
 }
 
 form[name*="mform"] th {
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 5px;
     float: left;
     display: block;
 }
@@ -35,10 +29,7 @@ form[name*="mform"] th {
     }
 
     form[name*="mform"] tr {
-        margin-top: 5px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 5px 0 0;
     }
 }
 
@@ -51,31 +42,19 @@ form[name*="mform"] th {
 }
 
 .box-item form[name*="mform"] th {
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 5px;
     float: left;
     display: block;
 }
 
 .box-item form[name*="mform"] tr {
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 5px 0 0;
 }
 
 .box-item form[name*="mform"] input[type="submit"] {
     width: 100%;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 7px 0;
+    margin: 2px 0;
     float: left;
     clear: both;
     display: inline-block;
@@ -84,22 +63,13 @@ form[name*="mform"] th {
 /* hcm - e-mail for "box" - end */
 /* hcm - new comments (recentposts + articles) for "box" */
 .box-item .list-item {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
 }
 
 .box-item .list-title {
     background-color: transparent;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
@@ -116,10 +86,7 @@ form[name*="mform"] th {
     border-right-color: currentcolor;
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
     box-shadow: none;
 }
 
@@ -135,10 +102,7 @@ form[name*="mform"] th {
     background-size: 8px auto;
     font-size: 16px;
     font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .box-item .list-title a:hover {
@@ -155,20 +119,14 @@ form[name*="mform"] th {
     font-size: 16px;
     font-weight: bold;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
 }
 
 .box-item .list-perex {
     background-color: transparent;
     font-size: 14px;
     line-height: 120%;
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
-    padding-left: 5px !important;
-    padding-right: 5px !important;
+    padding: 5px !important;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -190,10 +148,7 @@ form[name*="mform"] th {
 
 .box-item ul.list-info {
     background-color: transparent;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;

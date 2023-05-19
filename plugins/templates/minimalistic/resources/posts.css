@@ -1,30 +1,18 @@
-/* posts */
+﻿/* posts */
 .posts {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 20px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 20px 0 0;
     float: left;
     display: inline-block;
 }
 
 .posts h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
 }
 
 .posts-pm {
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 10px 0 0;
 }
 
 .posts-form {
@@ -36,42 +24,24 @@
 .posts-form .icon {
     width: 11px;
     height: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 0;
+    margin: 0 5px 0 0;
 }
 
 .postform th, .m-messages th {
     text-align: left;
     width: 100px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 form.postform {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 15px 0;
+    margin: 5px 0;
 }
 
 .postform table {
     background-color: rgb(246, 246, 247);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -84,23 +54,14 @@ form.postform {
     border-bottom-color: rgb(216, 216, 216);
     border-left-color: rgb(216, 216, 216);
     border-right-color: rgb(216, 216, 216);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 
 .topic-table {
     background-color: rgba(245, 245, 245, 0.9);
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 10px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -113,10 +74,7 @@ form.postform {
     border-bottom-color: rgb(217, 217, 217);
     border-left-color: rgb(217, 217, 217);
     border-right-color: rgb(217, 217, 217);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -127,10 +85,7 @@ form.postform {
 }
 
 .topic-table strong {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 0;
+    padding: 5px 0 5px 5px;
     display: block;
 }
 
@@ -141,21 +96,15 @@ form.postform {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .topic-table thead {
     font-family: 'Encode Sans Condensed', sans-serif;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 .topic-table thead th {
@@ -186,10 +135,7 @@ form.postform {
 }
 
 .topic-table th {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -205,14 +151,8 @@ form.postform {
 }
 
 .topic-table td {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -246,14 +186,8 @@ form.postform {
 .topic-main-cell a {
     color: #E96901;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     white-space: pre-wrap;
     overflow-wrap: break-word;
     word-break: break-all;
@@ -271,14 +205,8 @@ form.postform {
 .topic-main-cell a.user-link {
     color: #444444;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     white-space: pre-wrap;
     overflow-wrap: break-word;
     word-break: break-all;
@@ -301,14 +229,8 @@ td.topic-main-cell br {
     text-overflow: ellipsis;
     font-size: 14px;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 15px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 15px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -334,33 +256,21 @@ td.topic-main-cell br {
     font-size: 15px;
     text-transform: uppercase;
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0;
     display: inline-block;
 }
 
 .post-answer-list p {
     color: #444444;
     font-size: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 0 5px;
 }
 
 .topic-latest {
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -374,10 +284,7 @@ td.topic-main-cell br {
 .topic-latest tbody {
     text-overflow: ellipsis;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -386,10 +293,7 @@ td.topic-main-cell br {
 
 .topic-latest tr {
     width: 100%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -412,10 +316,7 @@ td.topic-main-cell br {
     font-size: 14px;
     text-overflow: ellipsis;
     max-width: 100%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 5px;
+    padding: 1px 5px 1px 1px;
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
@@ -428,21 +329,15 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     font-size: 10px;
     line-height: 110%;
     width: 100%;
     min-width: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 1px;
-    margin-right: 1px;
+    padding: 3px;
+    margin: 0 1px 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -462,10 +357,7 @@ td.topic-main-cell br {
     width: 100%;
     min-width: 10px;
     height: 100%;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 5px;
     float: left;
 }
 
@@ -476,21 +368,15 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     line-height: 110%;
     width: 100%;
     min-width: 10px;
     height: 100%;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 1px;
+    margin: 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -517,23 +403,14 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     width: 20px;
     height: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    padding: 3px;
+    margin: 4px 2px;
+    border-radius: 3px;
     float: left;
     display: block;
 }
@@ -545,23 +422,14 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     width: 20px;
     height: 20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-top: 4px;
-    margin-bottom: 4px;
-    margin-left: 2px;
-    margin-right: 2px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    padding: 3px;
+    margin: 4px 2px;
+    border-radius: 3px;
     float: left;
     display: block;
 }
@@ -579,20 +447,14 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     color: #333333;
     font-size: 16px;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -605,10 +467,7 @@ td.topic-main-cell br {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.15s;
@@ -623,18 +482,12 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -647,10 +500,7 @@ td.topic-main-cell br {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .post-form-preview:active, .post-form-preview:focus {
@@ -660,18 +510,12 @@ td.topic-main-cell br {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -684,10 +528,7 @@ td.topic-main-cell br {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
@@ -705,14 +546,8 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     line-height: 120%;
     width: 100%;
     height: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 30px;
+    margin: 10px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -725,10 +560,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     border-bottom-color: rgb(186, 186, 186);
     border-left-color: rgb(186, 186, 186);
     border-right-color: rgb(186, 186, 186);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     cursor: text;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -739,10 +571,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
 .post-list {
     width: 100%;
     height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     float: left;
     display: inline-block;
 }
@@ -750,10 +579,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
 .topic-pages {
     width: 100%;
     height: 100%;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
     float: left;
     display: inline-block;
 }
@@ -765,14 +591,8 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     font-size: 11px;
     line-height: 100%;
     width: auto;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 2px 4px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -785,10 +605,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     border-bottom-color: rgb(192, 192, 192);
     border-left-color: rgb(192, 192, 192);
     border-right-color: rgb(192, 192, 192);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -804,14 +621,8 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     text-shadow: 0 1px 0 #FFFFFF;
     font-size: 11px;
     line-height: 100%;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    margin-top: 4px;
-    margin-bottom: 2px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 2px 4px;
+    margin: 4px 5px 2px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -824,10 +635,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     border-bottom-color: rgb(162, 162, 162);
     border-left-color: rgb(162, 162, 162);
     border-right-color: rgb(162, 162, 162);
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-radius: 3px;
     clear: none;
     float: left;
     display: block;
@@ -835,53 +643,29 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
 
 .topic {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    padding: 0;
+    margin: 0;
+    border-radius: 3px;
     display: inline-block;
 }
 
 .topic h2 {
     color: #333333;
     text-overflow: ellipsis;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 .topic .post {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
 }
 
 .post {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 20px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 20px 0 0;
     clear: both;
     display: inline-block;
 }
@@ -893,14 +677,8 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px;
+    margin: 0;
     border-top-width: 1px;
     border-right-width: 1px;
     border-bottom-width: 1px;
@@ -946,20 +724,14 @@ div.post:target div.post-head {
 
 .post-author {
     color: #666666;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
     float: left;
     display: block;
 }
 
 .post-author-guest {
     color: #777777;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
     float: left;
     display: block;
 }
@@ -967,24 +739,15 @@ div.post:target div.post-head {
 .post-info {
     color: #333333;
     font-size: 13px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
     float: left;
     display: block;
 }
 
 .post-body {
     width: 100%;
-    padding-top: 4px;
-    padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 4px 0 8px;
+    margin: 0;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -1003,10 +766,7 @@ div.post:target div.post-head {
 
 .post-body-withavatar {
     min-width: 75px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 60px;
-    padding-right: 0;
+    padding: 5px 0 5px 60px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -1023,10 +783,7 @@ div.post:target div.post-head {
 
 .post-body-withavatar img.avatar {
     max-width: 50px;
-    margin-top: 5px;
-    margin-bottom: 0;
-    margin-left: -60px;
-    margin-right: 0;
+    margin: 5px 0 0 -60px;
     float: left;
 }
 
@@ -1038,31 +795,19 @@ div.post:target div.post-head {
 
 .posts.posts-topic-replies {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 10px 0 0;
     float: left;
     display: inline-block;
 }
 
 .post.post-withavatar {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 0;
 }
 
 .post-actions {
     width: 100%;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 4px 0 5px;
+    margin: 0;
     float: left;
     display: block;
 }
@@ -1074,21 +819,15 @@ div.post:target div.post-head {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     color: #333333;
     font-size: 14px;
     text-shadow: none;
     line-height: 110%;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+    padding: 6px 10px;
+    margin: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1101,10 +840,7 @@ div.post:target div.post-head {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     float: left;
     display: block;
     transition-property: all;
@@ -1120,18 +856,12 @@ div.post:target div.post-head {
     background-attachment: scroll;
     background-clip: border-box;
     background-origin: padding-box;
-    background-position-x: 0%;
-    background-position-y: 0%;
+    background-position-x: 0;
+    background-position-y: 0;
     background-size: auto auto;
     color: #111111;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+    padding: 6px 10px;
+    margin: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -1144,33 +874,21 @@ div.post:target div.post-head {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .post-postlink {
     color: #000000;
     font-size: 13px;
     text-shadow: none;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: left;
     display: block;
 }
 
 .post-answer {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 20px 0;
     float: left;
 }
 
@@ -1187,18 +905,12 @@ div.post:target div.post-head {
     border-right-color: currentcolor;
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0;
 }
 
 .post-answer .post-body-withavatar {
     min-width: 75px;
-    padding-top: 4px;
-    padding-bottom: 5px;
-    padding-left: 60px;
-    padding-right: 0;
+    padding: 4px 0 5px 60px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -1214,10 +926,7 @@ div.post:target div.post-head {
 }
 
 .post-answer .post-body-withavatar .post-body-text {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 3px;
-    padding-right: 0;
+    padding: 0 0 0 3px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -1234,10 +943,7 @@ div.post:target div.post-head {
 
 .post-answer .post-body-withavatar .post-body-text {
     min-width: 75px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 3px;
-    padding-right: 0;
+    padding: 0 0 0 3px;
     border-top-width: 0;
     border-right-width: 0;
     border-bottom-width: 0;
@@ -1266,23 +972,14 @@ img.post-smiley {
 
 .user-link {
     font-size: 15px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
 }
 
 .user-link .icon {
     width: auto;
     height: 10px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 0;
+    margin: 0 5px 0 0;
 }
 
 .user-link-0 {
@@ -1304,14 +1001,8 @@ img.post-smiley {
     font-variant-ligatures: inherit;
     white-space: nowrap;
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 5px;
+    margin: 5px 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 2px;
@@ -1395,14 +1086,8 @@ img.post-smiley {
         background-size: 8px auto;
         color: #000000;
         width: auto;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 20px;
-        padding-right: 8px;
-        margin-top: 0;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 8px 8px 8px 20px;
+        margin: 0 0 10px;
         border-top-width: 1px;
         border-bottom-width: 1px;
         border-left-width: 1px;
@@ -1415,10 +1100,7 @@ img.post-smiley {
         border-bottom-color: rgb(192, 192, 192);
         border-left-color: rgb(192, 192, 192);
         border-right-color: rgb(192, 192, 192);
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        border-bottom-right-radius: 2px;
-        border-bottom-left-radius: 2px;
+        border-radius: 2px;
         overflow-x: hidden;
         overflow-y: hidden;
         clear: both;
@@ -1441,14 +1123,8 @@ img.post-smiley {
         background-size: 8px auto;
         color: #000000;
         max-width: 100%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 20px;
-        padding-right: 8px;
-        margin-top: 0;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 8px 8px 8px 20px;
+        margin: 0 0 10px;
         border-top-width: 1px;
         border-bottom-width: 1px;
         border-left-width: 1px;
@@ -1461,10 +1137,7 @@ img.post-smiley {
         border-bottom-color: rgb(162, 162, 162);
         border-left-color: rgb(162, 162, 162);
         border-right-color: rgb(162, 162, 162);
-        border-top-left-radius: 2px;
-        border-top-right-radius: 2px;
-        border-bottom-right-radius: 2px;
-        border-bottom-left-radius: 2px;
+        border-radius: 2px;
         clear: both;
         float: left;
         display: block;
@@ -1481,21 +1154,15 @@ img.post-smiley {
         background-attachment: scroll;
         background-clip: border-box;
         background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
+        background-position-x: 0;
+        background-position-y: 0;
         background-size: auto auto;
         font-size: 15px;
         line-height: 100%;
         max-width: none;
         width: auto;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin-top: 4px;
-        margin-bottom: 2px;
-        margin-left: 0;
-        margin-right: 5px;
+        padding: 5px 8px;
+        margin: 4px 5px 2px 0;
         clear: none;
         float: left;
         display: block;
@@ -1508,19 +1175,13 @@ img.post-smiley {
         background-attachment: scroll;
         background-clip: border-box;
         background-origin: padding-box;
-        background-position-x: 0%;
-        background-position-y: 0%;
+        background-position-x: 0;
+        background-position-y: 0;
         background-size: auto auto;
         font-size: 15px;
         line-height: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 8px;
-        padding-right: 8px;
-        margin-top: 4px;
-        margin-bottom: 2px;
-        margin-left: 0;
-        margin-right: 5px;
+        padding: 5px 8px;
+        margin: 4px 5px 2px 0;
         clear: none;
         float: left;
         display: block;
@@ -1553,14 +1214,8 @@ img.post-smiley {
 
     .topic-table tr {
         width: 100%;
-        padding-top: 1px;
-        padding-bottom: 1px;
-        padding-left: 1px;
-        padding-right: 1px;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 1px;
+        margin: 0;
         border-top-width: 0;
         border-right-width: 0;
         border-bottom-width: 1px;
@@ -1580,10 +1235,7 @@ img.post-smiley {
     .topic-table {
         text-overflow: ellipsis;
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
+        padding: 0;
         border-top-width: 1px;
         border-right-width: 0;
         border-bottom-width: 0;
@@ -1624,48 +1276,27 @@ img.post-smiley {
     }
 
     .post-actions {
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 4px;
-        margin-bottom: 4px;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0;
+        margin: 4px 0;
     }
 
     .post-postlink {
         width: 100%;
-        margin-top: 5px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 5px 0 0;
+        margin: 0;
         float: left;
         display: inline-block;
     }
 
     .posts-form td input[type="submit"], .post-form-preview, .post-form-preview:hover, .post-form-preview:active, .post-form-preview:focus {
-        padding-top: 6px;
-        padding-bottom: 6px;
-        padding-left: 6px;
-        padding-right: 6px;
-        margin-top: 0;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 6px;
+        margin: 0 0 5px;
     }
 }
 
 @media only screen and (max-width: 310px) {
     a.bbcode-button {
-        margin-top: 5px;
-        margin-bottom: 4px;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin: 5px 2px 4px;
     }
 }
 

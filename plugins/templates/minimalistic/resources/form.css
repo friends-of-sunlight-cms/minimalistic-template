@@ -1,9 +1,6 @@
-/* forms */
+﻿/* forms */
 label {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 5px 0;
     display: block;
 }
 
@@ -27,22 +24,13 @@ iframe {
 }
 
 form {
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 0 10px;
 }
 
 fieldset {
     background-color: rgb(246, 246, 247);
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 5px 15px 15px;
+    margin: 0 0 10px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -58,20 +46,14 @@ fieldset {
 }
 
 fieldset p {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
 }
 
 legend {
     background-color: rgb(234, 235, 238);
     color: #111111;
     text-shadow: 0 1px 0 #FFFFFF;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 5px 10px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 2px;
@@ -91,14 +73,8 @@ textarea {
     color: #000000;
     width: 100%;
     min-width: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 0;
-    margin-bottom: 3px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px;
+    margin: 0 0 3px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -148,10 +124,7 @@ textarea:active, textarea:focus {
 select, select:hover {
     background-color: rgb(255, 255, 255);
     color: #000000;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -169,10 +142,7 @@ select, select:hover {
 select:active, select:focus {
     background-color: rgb(240, 240, 240) !important;
     color: #000000;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 15px;
+    margin: 0 15px 0 0;
     border-top-width: 1px !important;
     border-bottom-width: 1px !important;
     border-left-width: 1px !important;
@@ -201,14 +171,8 @@ select[name="group_id"], select[name="action"], select[name="new_forum"] {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    padding-left: 8px !important;
-    padding-right: 20px !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 15px;
+    padding: 8px 20px 8px 8px !important;
+    margin: 0 15px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -240,14 +204,8 @@ select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_for
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
-    padding-top: 8px !important;
-    padding-bottom: 8px !important;
-    padding-left: 8px !important;
-    padding-right: 20px !important;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 15px;
+    padding: 8px 20px 8px 8px !important;
+    margin: 0 15px 0 0;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -274,14 +232,8 @@ select[name="group_id"] option, select[name="action"] option, select[name="new_f
 
 button {
     color: #000000;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    padding: 8px;
+    border-radius: 2px;
 }
 
 a.button .icon {
@@ -316,14 +268,8 @@ a.button:active, a.button:focus {
     color: #333333;
     font-size: 16px;
     line-height: 110%;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 29px;
-    padding-right: 8px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 8px 8px 8px 29px;
+    margin: 0 0 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -336,10 +282,7 @@ a.button:active, a.button:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
     cursor: pointer;
     transition-property: all;
     transition-duration: 0.15s;
@@ -358,10 +301,7 @@ a.button:active, a.button:focus {
     background-position-y: center;
     background-size: 17px auto;
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 29px;
-    padding-right: 8px;
+    padding: 8px 8px 8px 29px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -374,10 +314,7 @@ a.button:active, a.button:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .posts-form a.button:active, .posts-form a.button:focus {
@@ -391,10 +328,7 @@ a.button:active, a.button:focus {
     background-position-y: center;
     background-size: 17px auto;
     color: #111111;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 29px;
-    padding-right: 8px;
+    padding: 8px 8px 8px 29px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -407,10 +341,7 @@ a.button:active, a.button:focus {
     border-bottom-color: rgb(150, 150, 150);
     border-left-color: rgb(150, 150, 150);
     border-right-color: rgb(150, 150, 150);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+    border-radius: 2px;
 }
 
 .areasmall {
@@ -421,10 +352,7 @@ a.button:active, a.button:focus {
 .areamedium {
     width: 100%;
     height: 150px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -451,26 +379,17 @@ input.inputsmall, form {
 @media only screen and (max-width: 470px) {
     p label {
         width: 100%;
-        margin-top: 10px;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 10px 0 0;
         float: left;
         display: inline-block;
     }
 
     select {
-        margin-top: 0;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 15px;
+        margin: 0 15px 5px 0;
     }
 
     select[name="group_id"], select[name="action"], select[name="new_forum"] {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 2px;
-        margin-right: 2px;
+        margin: 10px 2px;
         clear: both;
         display: inline-block;
     }
@@ -482,51 +401,33 @@ input.inputsmall, form {
     a.button, a.button:hover, a.button:active, a.button:focus {
         text-align: center;
         width: 100%;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 0;
-        padding-right: 14px;
+        padding: 8px 14px 8px 0;
         float: left;
         display: inline-block;
     }
 
     .button img.icon {
-        padding-top: 3px;
-        padding-bottom: 3px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding: 3px 5px;
         float: left;
     }
 
     select[name="group_id"], select[name="action"], select[name="new_forum"], select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover, select[name="group_id"]:hover, select[name="action"]:hover, select[name="new_forum"]:hover {
-        margin-top: 0;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 10px;
     }
 
     .posts-form a.button, .posts-form a.button:hover, .posts-form a.button:active, .posts-form a.button:focus {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 }
 
 /* forms - end */
 /* inputs */
 input {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 0 5px 0 0;
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding: 5px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -548,10 +449,7 @@ input[type="file"] {
     width: 100%;
     min-width: 0;
     min-height: 34px;
-    padding-top: 2px;
-    padding-bottom: 4px;
-    padding-left: 0;
-    padding-right: 2px;
+    padding: 2px 2px 4px 0;
     cursor: pointer;
     overflow-x: hidden;
     overflow-y: hidden;
@@ -583,10 +481,7 @@ input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover
     }
 
     input[type="text"], input[type="email"], input[type="password"] {
-        margin-top: 0;
-        margin-bottom: 5px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 5px;
     }
 }
 
@@ -596,14 +491,8 @@ input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover
         text-overflow: ellipsis;
         width: 100%;
         min-width: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-top: 1px;
-        margin-bottom: 1px;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 10px;
+        margin: 1px 0;
         overflow-x: hidden;
         overflow-y: hidden;
         float: left;
@@ -615,20 +504,14 @@ input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover
     }
 
     input[type="text"], input[type="text"]:hover, input[type="text"]:active, input[type="text"]:focus, input[type="email"], input[type="email"]:hover, input[type="email"]:active, input[type="email"]:focus, input[type="password"], input[type="password"]:hover, input[type="password"]:active, input[type="password"]:focus, input[type="button"], input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus, button, select {
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 8px;
-        padding-right: 8px;
+        padding: 8px;
     }
 }
 
 /* inputs - end */
 /* inputs - name */
 input[name="login_persistent"], input[name="delete"], input[name="massemail"], input[name="page"], input[name="art"], input[name="post"], input[name="img"], input[name="public"], input[name="wysiwyg"], input[name="removeavatar"], input[name="option"], input[name="agreement"], input[name="selfremove"] {
-    margin-top: 2px;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 5px;
+    margin: 2px 5px 0 0;
     cursor: pointer;
     width: 15px;
     height: 15px;
@@ -638,10 +521,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_username"], .inputsmall[name="username"], .inputsmall[name="publicname"], .inputsmall[name="guest"], .inputsmall[name="receiver"], .sbox-input[name="guest"] {
     background-color: rgb(255, 255, 255);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -658,10 +538,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_username"]:hover, .inputsmall[name="username"]:hover, .inputsmall[name="publicname"]:hover, .inputsmall[name="guest"]:hover, .inputsmall[name="receiver"]:hover, .sbox-input[name="guest"]:hover {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -678,10 +555,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_username"]:active, .inputmedium[name="login_username"]:focus, .inputsmall[name="username"]:active, .inputsmall[name="username"]:focus, .inputsmall[name="publicname"]:active, .inputsmall[name="publicname"]:focus, .inputsmall[name="guest"]:active, .inputsmall[name="guest"]:focus, .inputsmall[name="receiver"]:active, .inputsmall[name="receiver"]:focus, .sbox-input[name="guest"]:active, .sbox-input[name="guest"]:focus {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -698,10 +572,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_password"], .inputsmall[name="password"], .inputsmall[name="password2"], .inputsmall[name="currentpassword"], .inputsmall[name="newpassword"], .inputsmall[name="newpassword-confirm"] {
     background-color: rgb(255, 255, 255);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -718,10 +589,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_password"]:hover, .inputsmall[name="password"]:hover, .inputsmall[name="password2"]:hover, .inputsmall[name="currentpassword"]:hover, .inputsmall[name="newpassword"]:hover, .inputsmall[name="newpassword-confirm"]:hover {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -738,10 +606,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputmedium[name="login_password"]:active, .inputmedium[name="login_password"]:focus, .inputsmall[name="password"]:active, .inputsmall[name="password"]:focus, .inputsmall[name="password2"]:active, .inputsmall[name="password2"]:focus, .inputsmall[name="currentpassword"]:active, .inputsmall[name="currentpassword"]:focus, .inputsmall[name="newpassword"]:active, .inputsmall[name="newpassword"]:focus, .inputsmall[name="newpassword-confirm"]:hover, .inputsmall[name="newpassword-confirm"]:focus {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -758,10 +623,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="email"], .inputsmall[name="sender"] {
     background-color: rgb(255, 255, 255);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -778,10 +640,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="email"]:hover, .inputsmall[name="sender"]:hover {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -798,10 +657,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="email"]:active, .inputsmall[name="email"]:focus, .inputsmall[name="sender"]:active, .inputsmall[name="sender"]:focus {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -818,10 +674,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="subject"], .inputmedium[name="subject"], .sbox-input[name="text"] {
     background-color: rgb(255, 255, 255);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -838,10 +691,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="subject"]:hover, .inputmedium[name="subject"]:hover, .sbox-input[name="text"]:hover {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;
@@ -858,10 +708,7 @@ input[name="login_persistent"], input[name="delete"], input[name="massemail"], i
 
 .inputsmall[name="subject"]:active, .inputsmall[name="subject"]:focus, .inputmedium[name="subject"]:active, .inputmedium[name="subject"]:focus, .sbox-input[name="text"]:active, .sbox-input[name="text"]:focus {
     background-color: rgb(240, 240, 240);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
     border-top-width: 1px;
     border-bottom-width: 1px;
     border-left-width: 1px;

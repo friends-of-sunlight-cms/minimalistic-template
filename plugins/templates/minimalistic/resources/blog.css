@@ -4,14 +4,8 @@
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
 }
 
 *::before {
@@ -38,14 +32,8 @@ body {
 }
 
 body, div, dl, dt, dd, ul, ol, li, pre, form, blockquote, th, td {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0;
+    margin: 0 auto;
     direction: ltr;
 }
 
@@ -54,14 +42,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: left;
     text-overflow: ellipsis;
     line-height: 130%;
-    padding-top: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 0 5px 5px 0;
+    margin: 0 5px 5px 0;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -72,10 +54,7 @@ h1 {
     font-family: 'Encode Sans Condensed', sans-serif;
     font-weight: 300;
     text-shadow: 1px 1px 0 #FFFFFF;
-    padding-top: 0;
-    padding-bottom: 8px;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 8px 0;
 }
 
 h2 {
@@ -106,10 +85,7 @@ h6 {
 }
 
 p {
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0.5em 0;
 }
 
 strong, b {
@@ -126,10 +102,7 @@ ul {
 }
 
 li {
-    margin-top: 1px;
-    margin-bottom: 1px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 1px 15px;
 }
 
 a {
@@ -148,10 +121,7 @@ a:hover {
     width: 1200px;
     max-width: 100%;
     min-width: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .row:before, .row:after {
@@ -166,14 +136,8 @@ a:hover {
 .section-header {
     background-color: rgb(53, 51, 51);
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: left;
     display: block;
 }
@@ -181,14 +145,8 @@ a:hover {
 .search-bar {
     color: #FFFFFF;
     font-size: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: right;
     position: relative;
     z-index: 998;
@@ -197,14 +155,8 @@ a:hover {
 .user-bar {
     color: #FFFFFF;
     font-size: 14px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: right;
     position: relative;
     z-index: 999;
@@ -213,14 +165,8 @@ a:hover {
 .header {
     text-align: left;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 15px;
+    margin: 0 auto;
     clear: both;
     display: block;
     float: left;
@@ -229,60 +175,33 @@ a:hover {
 .header a {
     color: #FDFDFD;
     text-shadow: 1px 1px 0 #000000;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 1px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 1px;
 }
 
 .header a:hover, .header a:focus {
     color: #F07746;
     text-shadow: 1px 1px 0 #000000;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 1px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0 0 1px;
 }
 
 .header .row {
     color: #FFFFFF;
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
 }
 
 .header-column-right {
     width: auto;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 2px;
+    margin: 0;
     float: right;
 }
 
 .header-overflow-check {
-    padding-top: 2px;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 2px 2px 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: none;
@@ -302,14 +221,8 @@ a:hover {
     max-width: 100%;
     min-width: 20px;
     height: auto;
-    padding-top: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 5px;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -328,14 +241,8 @@ a:hover {
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 1px;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 5px;
+    margin: 1px 0 5px;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -343,14 +250,8 @@ a:hover {
 }
 
 .nav .header-overflow-check {
-    padding-top: 10px;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 10px 2px 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     float: none;
@@ -364,10 +265,7 @@ a:hover {
 .nav {
     background-color: rgb(50, 50, 50);
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 0 15px;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -389,21 +287,12 @@ a:hover {
 .nav .row {
     color: #FDFDFD;
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
 }
 
 .menu-bar {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: right;
 }
 
@@ -413,24 +302,15 @@ a:hover {
 
 .section-content {
     width: 100%;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 18px 15px;
+    margin: 0;
     float: left;
     display: inline-block;
 }
 
 .section-content .row {
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
 }
 
 .content {
@@ -442,10 +322,7 @@ a:hover {
 }
 
 .content-overflow-check {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
     overflow-x: hidden;
     overflow-y: hidden;
     float: none;
@@ -458,14 +335,8 @@ a:hover {
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -476,14 +347,8 @@ a:hover {
 .heading {
     text-overflow: ellipsis;
     width: auto;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 8px;
-    margin-left: 0;
-    margin-right: 5px;
+    padding: 0;
+    margin: 0 5px 8px 0;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -491,10 +356,7 @@ a:hover {
 }
 
 .heading h1 {
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 5px;
+    padding: 0 5px 0 0;
 }
 
 .column-left, .cb-column-left {
@@ -512,14 +374,8 @@ a:hover {
 .column-left .box-item, .cb-column-left .box-item {
     text-overflow: ellipsis;
     width: 250px;
-    padding-top: 0;
-    padding-bottom: 10px;
-    padding-left: 0;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 2px;
-    margin-right: 15px;
+    padding: 0 15px 10px 0;
+    margin: 0 15px 0 2px;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -530,14 +386,8 @@ a:hover {
 .column-right .box-item, .cb-column-right .box-item {
     text-overflow: ellipsis;
     width: 250px;
-    padding-top: 0;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 15px;
-    margin-right: 2px;
+    padding: 0 0 10px 15px;
+    margin: 0 2px 0 15px;
     overflow-x: hidden;
     overflow-y: hidden;
     clear: both;
@@ -555,14 +405,8 @@ h2.box-title {
     font-family: 'Encode Sans Condensed', sans-serif;
     text-transform: uppercase;
     text-shadow: 1px 1px 0 #FFFFFF;
-    padding-top: 0;
-    padding-bottom: 5px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 5px;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0 0 5px;
+    margin: 0 0 5px;
     border-top-width: 0;
     border-bottom-width: 1px;
     border-left-width: 0;
@@ -579,14 +423,8 @@ h2.box-title {
 
 .section-footer {
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
+    padding: 0;
+    margin: 0;
     float: left;
     display: block;
 }
@@ -594,14 +432,8 @@ h2.box-title {
 .footer {
     background: rgb(254, 254, 254);
     width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 10px 15px;
+    margin: 0 auto;
     border-top-width: 1px;
     border-bottom-width: 0;
     border-left-width: 0;
@@ -622,10 +454,7 @@ h2.box-title {
 .footer .row {
     color: #333333;
     height: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding: 0 2px;
 }
 
 .column-footer {
@@ -633,10 +462,7 @@ h2.box-title {
     width: 9999px;
     max-width: 100%;
     min-width: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     clear: both;
     float: left;
     display: block;
@@ -646,10 +472,7 @@ h2.box-title {
     .row {
         width: auto;
         min-width: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0;
     }
 
     .menu-bar {
@@ -658,10 +481,7 @@ h2.box-title {
 
     .responsive-menu-bar {
         width: 100%;
-        margin-top: 0;
-        margin-bottom: 10px;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 0 10px;
         float: left;
         display: block;
     }
@@ -676,14 +496,8 @@ h2.box-title {
         width: 750px;
         max-width: 100%;
         min-width: 20px;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 10px 0;
+        margin: 0;
     }
 
     .column-left, .column-right, .responsive-column-left, .responsive-column-right {
@@ -696,14 +510,8 @@ h2.box-title {
 
     .column-left .box-item, .column-right .box-item, .responsive-column-left .box-item, .responsive-column-right .box-item {
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 10px;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0 0 10px;
+        margin: 0;
         display: inline-block;
     }
 
@@ -742,55 +550,31 @@ h2.box-title {
     .nav .responsive-header-overflow-check {
         text-align: center;
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0;
+        margin: 0;
         clear: both;
         float: none;
         display: inline-block;
     }
 
     .nav .site-description {
-        padding-top: 5px;
-        padding-bottom: 0;
-        padding-left: 0;
-        padding-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 5px 0 0;
+        margin: 0;
     }
 
     .nav .header-column-right {
         text-align: left;
         width: 100%;
-        padding-top: 0;
-        padding-bottom: 0;
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 0 2px;
+        margin: 0;
         float: left;
     }
 
     .header-column-right {
         text-align: left;
         width: 100%;
-        padding-top: 5px;
-        padding-bottom: 0;
-        padding-left: 2px;
-        padding-right: 2px;
-        margin-top: 0;
-        margin-bottom: 0;
-        margin-left: 0;
-        margin-right: 0;
+        padding: 5px 2px 0;
+        margin: 0;
         float: left;
     }
 }
@@ -834,14 +618,8 @@ a img {
     width: 9999px;
     max-width: 100%;
     min-width: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 0 5px;
+    margin: 0 auto;
 }
 
 /* full layout - end */
