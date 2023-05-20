@@ -2,14 +2,16 @@
   "$schema": "../../../system/schema/template.json",
   "name": "Minimalistic",
   "description": "Minimalist responsive template (Modified version of the template by CzechXicht)",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "class": "TemplatePlugin",
-  "url": "https://github.com/friends-of-sunlight-cms/",
-  "author": "Friends of Sunlight CMS",
   "responsive": true,
   "environment": {
     "system": "^8.0"
   },
+  "authors": [
+    {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
+    {"name": "CzechXicht"}
+  ],
   "layouts": {
     "default": {
       "template": "layouts/default.php",
@@ -71,23 +73,23 @@
     }
   },
   "css": [
-    "resources/blog.css",
-    "resources/buttons.css",
-    "resources/category.css",
-    "resources/font.css",
-    "resources/form.css",
-    "resources/gallery.css",
-    "resources/internal-hcm.css",
-    "resources/login.css",
-    "resources/menu.css",
-    "resources/messages.css",
-    "resources/posts.css",
-    "resources/profile.css",
-    "resources/sbox.css",
-    "resources/search.css",
-    "resources/survey.css",
-    "resources/system.css",
-    "resources/ulist.css"
+    "public/blog.css",
+    "public/buttons.css",
+    "public/category.css",
+    "public/font.css",
+    "public/form.css",
+    "public/gallery.css",
+    "public/internal-hcm.css",
+    "public/login.css",
+    "public/menu.css",
+    "public/messages.css",
+    "public/posts.css",
+    "public/profile.css",
+    "public/sbox.css",
+    "public/search.css",
+    "public/survey.css",
+    "public/system.css",
+    "public/ulist.css"
   ],
   "dark": false,
   "bbcode.buttons": true,

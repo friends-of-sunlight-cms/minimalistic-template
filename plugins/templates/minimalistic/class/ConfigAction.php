@@ -7,7 +7,6 @@ use Sunlight\Localization\LocalizationDirectory;
 use Sunlight\Plugin\Action\ConfigAction as BaseConfigAction;
 use Sunlight\Plugin\Plugin;
 use Sunlight\Util\Form;
-use SunlightTemplate\Chameleon\TemplatePlugin;
 
 class ConfigAction extends BaseConfigAction
 {
@@ -20,7 +19,7 @@ class ConfigAction extends BaseConfigAction
     {
         $this->plugin = $plugin;
         // register lang for administration
-        Core::$dictionary->registerSubDictionary(self::THEME_ID, new LocalizationDirectory(__DIR__ . DIRECTORY_SEPARATOR . 'resources/lang/'));
+        Core::$dictionary->registerSubDictionary(self::THEME_ID, new LocalizationDirectory(__DIR__ . DIRECTORY_SEPARATOR . '../lang/'));
         parent::__construct($plugin);
     }
 
