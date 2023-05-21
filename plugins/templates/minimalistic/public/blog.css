@@ -305,7 +305,7 @@ a:hover {
     padding: 18px 15px;
     margin: 0;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .section-content .row {

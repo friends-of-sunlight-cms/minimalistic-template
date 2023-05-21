@@ -1,7 +1,7 @@
 ﻿/* galery */
 .gallery-hr {
     background-color: transparent;
-    background-image: url("images/system/hr.png");
+    background-image: url("../images/system/hr.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -18,8 +18,7 @@
     text-align: left;
     min-width: 100px;
     margin: 5px 0;
-    float: left;
-    display: block;
+    display: inline-block;
 }
 
 .gallery img {

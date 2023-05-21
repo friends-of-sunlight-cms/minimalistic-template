@@ -14,7 +14,7 @@
 
 .search-bar .unpacking > label {
     background-color: rgba(60, 60, 60, 0.1);
-    background-image: url("images/up/up-search.png");
+    background-image: url("../images/up/up-search.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -47,7 +47,7 @@
 
 .search-bar input[type=checkbox]:checked + .unpacking label {
     background-color: rgba(60, 60, 60, 0.1);
-    background-image: url("images/up/up-search.png");
+    background-image: url("../images/up/up-search.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -76,7 +76,7 @@
 .search-bar .unpacking > label:before {
     content: "";
     background-color: transparent;
-    background-image: url("images/menu/hamburger-white.png");
+    background-image: url("../images/menu/hamburger-white.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -94,7 +94,7 @@
 .search-bar input[type=checkbox]:checked + .unpacking label:before {
     content: "";
     background-color: transparent;
-    background-image: url("images/menu/no-red.png");
+    background-image: url("../images/menu/no-red.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -141,7 +141,7 @@
 
 .user-bar .unpacking > label {
     background-color: rgba(60, 60, 60, 0.1);
-    background-image: url("images/up/up-user.png");
+    background-image: url("../images/up/up-user.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -174,7 +174,7 @@
 
 .user-bar input[type=checkbox]:checked + .unpacking label {
     background-color: rgba(60, 60, 60, 0.1);
-    background-image: url("images/up/up-user.png");
+    background-image: url("../images/up/up-user.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -203,7 +203,7 @@
 .user-bar .unpacking > label:before {
     content: "";
     background-color: transparent;
-    background-image: url("images/menu/hamburger-white.png");
+    background-image: url("../images/menu/hamburger-white.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -221,7 +221,7 @@
 .user-bar input[type=checkbox]:checked + .unpacking label:before {
     content: "";
     background-color: transparent;
-    background-image: url("images/menu/no-red.png");
+    background-image: url("../images/menu/no-red.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -259,7 +259,7 @@
 
 .responsive-menu-bar input[type=checkbox]:checked + .unpacking .menu-box {
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .responsive-menu-bar .unpacking > .menu-box {
@@ -330,7 +330,7 @@
 .responsive-menu-bar .unpacking > label:before {
     content: "";
     background-color: rgb(60, 60, 60);
-    background-image: url("images/menu/hamburger-white.png");
+    background-image: url("../images/menu/hamburger-white.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -353,7 +353,7 @@
 .responsive-menu-bar input[type=checkbox]:checked + .unpacking label:before {
     content: "";
     background-color: rgb(60, 60, 60);
-    background-image: url("images/menu/no-red.png");
+    background-image: url("../images/menu/no-red.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -430,7 +430,7 @@
 
 .user-menu-profile a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-profile-black.png");
+    background-image: url("../images/up/user-profile-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -443,7 +443,7 @@
 
 .user-menu-profile a:hover, .user-menu-profile a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-profile-black.png");
+    background-image: url("../images/up/user-profile-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -456,7 +456,7 @@
 
 .user-menu-messages a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-mess-black.png");
+    background-image: url("../images/up/user-mess-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -469,7 +469,7 @@
 
 .user-menu-messages a:hover, .user-menu-messages a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-mess-black.png");
+    background-image: url("../images/up/user-mess-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -482,7 +482,7 @@
 
 .user-menu-settings a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-settings-black.png");
+    background-image: url("../images/up/user-settings-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -495,7 +495,7 @@
 
 .user-menu-settings a:hover, .user-menu-settings a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-settings-black.png");
+    background-image: url("../images/up/user-settings-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -508,7 +508,7 @@
 
 .user-menu-admin a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-admin-black.png");
+    background-image: url("../images/up/user-admin-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -521,7 +521,7 @@
 
 .user-menu-admin a:hover, .user-menu-admin a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-admin-black.png");
+    background-image: url("../images/up/user-admin-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -534,7 +534,7 @@
 
 .user-menu-logout a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-logout-black.png");
+    background-image: url("../images/up/user-logout-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -547,7 +547,7 @@
 
 .user-menu-logout a:hover, .user-menu-logout a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-logout-black.png");
+    background-image: url("../images/up/user-logout-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -560,7 +560,7 @@
 
 .user-menu-reg a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-reg-black.png");
+    background-image: url("../images/up/user-reg-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -573,7 +573,7 @@
 
 .user-menu-reg a:hover, .user-menu-reg a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-reg-black.png");
+    background-image: url("../images/up/user-reg-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -586,7 +586,7 @@
 
 .user-menu-login a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-login-black.png");
+    background-image: url("../images/up/user-login-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -599,7 +599,7 @@
 
 .user-menu-login a:hover, .user-menu-login a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-login-black.png");
+    background-image: url("../images/up/user-login-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -612,7 +612,7 @@
 
 .user-menu-ulist a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/up/user-ulist-black.png");
+    background-image: url("../images/up/user-ulist-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -625,7 +625,7 @@
 
 .user-menu-ulist a:hover, .user-menu-ulist a:focus {
     background-color: rgb(231, 231, 231);
-    background-image: url("images/up/user-ulist-black.png");
+    background-image: url("../images/up/user-ulist-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -722,7 +722,7 @@
     padding: 0;
     margin: 0;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .box-item .menu li {
@@ -731,7 +731,7 @@
     width: 100%;
     margin: 0 0 1px;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .box-item .menu a {
@@ -741,7 +741,7 @@
     width: 100%;
     padding: 8px 12px;
     float: left;
-    display: inline-block;
+    display: block;
     transition-property: all;
     transition-duration: 0.15s;
     transition-timing-function: linear;
@@ -840,7 +840,7 @@
         width: 100%;
         margin: 0;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .nav .menu ul {
@@ -851,7 +851,7 @@
     .nav .menu li, .nav .menu a {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .nav .menu a {
@@ -887,12 +887,12 @@
         width: 100%;
         padding: 5px 0;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .column-footer .menu ul {
         width: 100%;
-        display: inline-block;
+        display: block;
     }
 
     .column-footer .menu li {
@@ -902,7 +902,7 @@
     .column-footer .menu li, .column-footer .menu a {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .column-footer .menu a, .column-footer .menu a:hover, .column-footer .menu a:focus, .column-footer .menu a:active, .column-footer .menu .active a {

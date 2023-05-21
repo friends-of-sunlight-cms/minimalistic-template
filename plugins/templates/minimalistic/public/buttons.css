@@ -148,7 +148,7 @@
         width: 100%;
         min-width: 0;
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 

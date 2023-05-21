@@ -4,7 +4,7 @@
     margin: 0 0 6px;
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 .poll-content, .poll-content form {
@@ -12,7 +12,7 @@
     padding: 0;
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 .poll-question {
@@ -22,7 +22,7 @@
     padding: 5px 0 10px;
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 .poll-question div {
@@ -34,7 +34,7 @@
     padding: 0 0 7px;
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 .poll-answer input {
@@ -69,7 +69,7 @@
 .poll-answer .votebutton {
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 .box-item .poll-answer .votebutton {
@@ -78,26 +78,26 @@
     margin: 2px 0 6px;
     float: left;
     clear: both;
-    display: inline-block;
+    display: block;
 }
 
 @media only screen and (max-width: 470px) {
     .poll-answer {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .poll-answer label {
         width: 100%;
         margin: 0 auto;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .poll-answer div {
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 

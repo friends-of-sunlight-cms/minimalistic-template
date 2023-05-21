@@ -1,4 +1,8 @@
 ﻿/* profile */
+.m-settings ul {
+    width: 100%;
+    display: inline-block;
+}
 .m-profile tbody, .m-profile tr {
     width: 100%;
 }
@@ -42,7 +46,6 @@
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    float: left;
     display: inline-block;
 }
 
@@ -94,7 +97,7 @@
 
 .m-profile .note a {
     background-color: rgb(245, 245, 245);
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -137,7 +140,7 @@
 
 .m-profile .note a:hover {
     background-color: rgb(230, 230, 230);
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -187,7 +190,7 @@
         text-overflow: ellipsis;
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .wlimiter {
@@ -198,7 +201,7 @@
         text-overflow: ellipsis;
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 
@@ -244,7 +247,7 @@
     .m-settings .profiletable tr, .m-settings .profiletable td {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 
@@ -275,12 +278,12 @@
     overflow-y: hidden;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-profile-posts .post-author {
     background-color: transparent;
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -346,14 +349,14 @@
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 @media only screen and (max-width: 750px) {
     .m-profile-posts .post-author, .m-profile-posts .post-info {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 
@@ -361,7 +364,6 @@
 /* profile - arts */
 .m-profile-arts .list-item {
     width: 100%;
-    float: left;
     display: inline-block;
 }
 
@@ -390,7 +392,7 @@
     overflow-y: hidden;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-profile-arts h2.list-title {
@@ -401,7 +403,7 @@
 
 .m-profile-arts .list-title a {
     background-color: transparent;
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -443,7 +445,7 @@
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-profile-arts .list-perex-image {

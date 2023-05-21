@@ -3,7 +3,6 @@
     text-align: left;
     width: 100%;
     margin: 10px 0 0;
-    float: left;
     display: inline-block;
 }
 
@@ -55,7 +54,6 @@
     border-left-color: rgb(216, 216, 216);
     border-right-color: rgb(216, 216, 216);
     border-radius: 2px;
-    float: left;
     display: inline-block;
 }
 
@@ -124,14 +122,14 @@
     margin: 0.5em 0;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-login h2 {
     width: 100%;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-login em {
@@ -143,7 +141,6 @@
     list-style-type: square;
     width: 100%;
     clear: both;
-    float: left;
     display: inline-block;
 }
 
@@ -156,7 +153,7 @@
         text-align: left;
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .login_form th, .regform th, .lostpassform th, .postform th, .m-messages th {
@@ -179,7 +176,7 @@
         width: 100%;
         margin: 0 0 10px;
         float: left;
-        display: inline-block;
+        display: block;
     }
 }
 

@@ -1,10 +1,16 @@
 ﻿/* messages */
+.m-messages form {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
 .messages-menu {
     width: 100%;
     padding: 0;
     margin: 0 0 5px;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-messages .button {
@@ -86,7 +92,6 @@
     white-space: pre-wrap;
     overflow-wrap: break-word;
     word-break: break-all;
-    display: table-row;
 }
 
 .messages-table a:hover {
@@ -134,6 +139,10 @@
 
 .messages-table a.notreaded {
     font-weight: bold;
+}
+
+.messages-table thead td {
+    width: 20px;
 }
 
 @media only screen and (max-width: 470px) {

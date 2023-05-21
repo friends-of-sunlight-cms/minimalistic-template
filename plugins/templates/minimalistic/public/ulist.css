@@ -3,7 +3,7 @@
     width: 100%;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .m-ulist .bborder {
@@ -34,7 +34,6 @@
     border-right-color: currentcolor;
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
-    float: left;
     display: inline-block;
 }
 
@@ -44,13 +43,13 @@
     width: 100%;
     padding: 0 1px;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .widetable tr {
     width: 100%;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .widetable td {
@@ -72,7 +71,7 @@
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .widetable th {
@@ -95,7 +94,7 @@
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .widetable a {

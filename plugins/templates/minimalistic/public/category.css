@@ -1,7 +1,6 @@
 ﻿/* category */
 .list-item {
     width: 100%;
-    float: left;
     display: inline-block;
 }
 
@@ -88,6 +87,8 @@ ul.list-info strong {
 .article-navigation {
     padding: 5px 0 10px;
     margin: 0;
+    float: left;
+    display: block;
 }
 
 .article-perex {
@@ -109,6 +110,8 @@ ul.list-info strong {
     border-right-color: currentcolor;
     overflow-x: hidden;
     overflow-y: hidden;
+    float: left;
+    display: block;
 }
 
 .article-perex p {
@@ -129,6 +132,7 @@ ul.list-info strong {
     margin: 0;
     overflow-x: hidden;
     overflow-y: hidden;
+    display: inline-block;
 }
 
 .article-footer {
@@ -136,7 +140,6 @@ ul.list-info strong {
     margin: 10px 0 0;
     overflow-x: hidden;
     overflow-y: hidden;
-    float: left;
     display: inline-block;
 }
 

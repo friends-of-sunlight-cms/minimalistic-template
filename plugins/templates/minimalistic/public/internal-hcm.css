@@ -12,7 +12,6 @@ form[name*="mform"] th {
 @media only screen and (max-width: 750px) {
     form[name*="mform"] {
         width: 100%;
-        float: left;
         display: inline-block;
     }
 
@@ -24,7 +23,6 @@ form[name*="mform"] th {
 @media only screen and (max-width: 450px) {
     form[name*="mform"], form[name*="mform"] table, form[name*="mform"] tbody, form[name*="mform"] tr, form[name*="mform"] td {
         width: 100%;
-        float: left;
         display: inline-block;
     }
 
@@ -37,7 +35,6 @@ form[name*="mform"] th {
 /* hcm - e-mail for "box" */
 .box-item form[name*="mform"], .box-item form[name*="mform"] table, .box-item form[name*="mform"] tbody, .box-item form[name*="mform"] tr, .box-item form[name*="mform"] td {
     width: 100%;
-    float: left;
     display: inline-block;
 }
 
@@ -55,7 +52,6 @@ form[name*="mform"] th {
     width: 100%;
     padding: 7px 0;
     margin: 2px 0;
-    float: left;
     clear: both;
     display: inline-block;
 }
@@ -92,7 +88,7 @@ form[name*="mform"] th {
 
 .box-item .list-title a {
     background-color: transparent;
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -107,7 +103,7 @@ form[name*="mform"] th {
 
 .box-item .list-title a:hover {
     background-color: transparent;
-    background-image: url("images/menu/menu_a.png");
+    background-image: url("../images/menu/menu_a.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;

@@ -3,7 +3,6 @@
     width: 100%;
     padding: 0;
     margin: 20px 0 0;
-    float: left;
     display: inline-block;
 }
 
@@ -18,7 +17,7 @@
 .posts-form {
     width: 100%;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .posts-form .icon {
@@ -247,7 +246,7 @@ td.topic-main-cell br {
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .post-answer-list h3 {
@@ -274,7 +273,7 @@ td.topic-main-cell br {
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .topic-latest a {
@@ -288,7 +287,7 @@ td.topic-main-cell br {
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .topic-latest tr {
@@ -309,7 +308,7 @@ td.topic-main-cell br {
     overflow-x: hidden;
     overflow-y: hidden;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .topic-latest td, .topic-latest td a {
@@ -437,7 +436,7 @@ td.topic-main-cell br {
 .post-form, .post-form td {
     width: 100%;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .post-form-preview {
@@ -533,7 +532,7 @@ td.topic-main-cell br {
 
 p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     background-color: rgb(255, 255, 255);
-    background-image: url("images/buttons/preview-white.png");
+    background-image: url("../images/buttons/preview-white.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -564,7 +563,6 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     cursor: text;
     overflow-x: hidden;
     overflow-y: hidden;
-    float: left;
     display: inline-block;
 }
 
@@ -573,7 +571,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     height: 100%;
     margin: 0;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .topic-pages {
@@ -581,7 +579,7 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     height: 100%;
     margin: 0;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .topic-pages a {
@@ -695,12 +693,12 @@ p.post-form-preview, p.post-form-preview:hover, p.post-form-preview:active {
     overflow-y: hidden;
     clear: both;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 div.post:target div.post-head {
     background-color: rgb(234, 235, 238);
-    background-image: url("images/menu/menu_b-black.png");
+    background-image: url("../images/menu/menu_b-black.png");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-clip: border-box;
@@ -761,7 +759,7 @@ div.post:target div.post-head {
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
     float: left;
-    display: inline-block;
+    display: block;
 }
 
 .post-body-withavatar {
@@ -796,12 +794,10 @@ div.post:target div.post-head {
 .posts.posts-topic-replies {
     width: 100%;
     margin: 10px 0 0;
-    float: left;
     display: inline-block;
 }
 
 .post.post-withavatar {
-    padding: 0;
 }
 
 .post-actions {
@@ -888,7 +884,8 @@ div.post:target div.post-head {
 }
 
 .post-answer {
-    margin: 20px 0 20px 50px;
+    padding: 0 0 0 50px;
+    margin: 20px 0 20px 0;
     float: left;
 }
 
@@ -1023,8 +1020,13 @@ img.post-smiley {
 .m-locktopic form, .m-stickytopic form, .m-movetopic form {
     width: 100%;
     clear: both;
-    float: left;
     display: inline-block;
+}
+
+@media only screen and (max-width: 750px) {
+    .post-answer {
+        padding: 0;
+    }
 }
 
 @media only screen and (max-width: 470px) {
@@ -1076,7 +1078,7 @@ img.post-smiley {
         text-overflow: ellipsis;
         max-width: 100%;
         background-color: rgb(247, 246, 246);
-        background-image: url("images/menu/menu_a-black.png");
+        background-image: url("../images/menu/menu_a-black.png");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-clip: border-box;
@@ -1113,7 +1115,7 @@ img.post-smiley {
 
     .topic-main-cell a:hover {
         background-color: rgb(226, 226, 226);
-        background-image: url("images/menu/menu_a-black.png");
+        background-image: url("../images/menu/menu_a-black.png");
         background-repeat: no-repeat;
         background-attachment: scroll;
         background-clip: border-box;
@@ -1209,7 +1211,7 @@ img.post-smiley {
     .topic-table tbody {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .topic-table tr {
@@ -1229,7 +1231,7 @@ img.post-smiley {
         border-bottom-color: rgb(201, 201, 201);
         border-left-color: currentcolor;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .topic-table {
@@ -1251,7 +1253,7 @@ img.post-smiley {
         overflow-x: hidden;
         overflow-y: hidden;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     tr.topic-new, tr.topic-normal {
@@ -1264,7 +1266,7 @@ img.post-smiley {
     .posts-form td, .posts-form th {
         width: 100%;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     td.topic-main-cell a.user-link, td.topic-main-cell a:hover.user-link {
@@ -1285,7 +1287,7 @@ img.post-smiley {
         padding: 5px 0 0;
         margin: 0;
         float: left;
-        display: inline-block;
+        display: block;
     }
 
     .posts-form td input[type="submit"], .post-form-preview, .post-form-preview:hover, .post-form-preview:active, .post-form-preview:focus {
