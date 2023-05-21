@@ -1,7 +1,7 @@
 {
   "$schema": "../../../system/schema/template.json",
   "name": "Minimalistic",
-  "description": "Minimalist responsive template (Modified version of the template by CzechXicht)",
+  "description": "Minimalist responsive template (Modified version of the template by .::CX::.)",
   "version": "0.9.1",
   "class": "TemplatePlugin",
   "responsive": true,
@@ -10,7 +10,7 @@
   },
   "authors": [
     {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
-    {"name": "CzechXicht"}
+    {"name": ".::CX::."}
   ],
   "layouts": {
     "default": {
