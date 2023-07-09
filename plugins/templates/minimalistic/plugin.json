@@ -1,100 +1,100 @@
 {
-  "$schema": "../../../system/schema/template.json",
-  "name": "Minimalistic",
-  "description": "Minimalist responsive template (Modified version of the template by .::CX::.)",
-  "version": "0.9.2",
-  "class": "TemplatePlugin",
-  "responsive": true,
-  "environment": {
-    "system": "^8.0"
-  },
-  "authors": [
-    {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
-    {"name": ".::CX::."}
-  ],
-  "layouts": {
-    "default": {
-      "template": "layouts/default.php",
-      "slots": [
-        "left",
-        "right"
-      ]
+    "$schema": "../../../system/schema/template.json",
+    "name": "Minimalistic",
+    "description": "Minimalist responsive template (Modified version of the template by .::CX::.)",
+    "version": "0.9.2",
+    "class": "TemplatePlugin",
+    "responsive": true,
+    "environment": {
+        "system": "^8.0"
     },
-    "landing": {
-      "template": "layouts/landing.php"
+    "authors": [
+        {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
+        {"name": ".::CX::."}
+    ],
+    "layouts": {
+        "default": {
+            "template": "layouts/default.php",
+            "slots": [
+                "left",
+                "right"
+            ]
+        },
+        "landing": {
+            "template": "layouts/landing.php"
+        },
+        "column_left": {
+            "template": "layouts/cl.php",
+            "slots": [
+                "left"
+            ]
+        },
+        "column_left_cb": {
+            "template": "layouts/cl-cb.php",
+            "slots": [
+                "left"
+            ]
+        },
+        "column_right": {
+            "template": "layouts/cr.php",
+            "slots": [
+                "right"
+            ]
+        },
+        "column_right_cb": {
+            "template": "layouts/cr-cb.php",
+            "slots": [
+                "right"
+            ]
+        },
+        "full_column_left": {
+            "template": "layouts/full-cl.php",
+            "slots": [
+                "left"
+            ]
+        },
+        "full_column_left_cb": {
+            "template": "layouts/full-cl-cb.php",
+            "slots": [
+                "left"
+            ]
+        },
+        "full_column_right": {
+            "template": "layouts/full-cr.php",
+            "slots": [
+                "right"
+            ]
+        },
+        "full_column_right_cb": {
+            "template": "layouts/full-cr-cb.php",
+            "slots": [
+                "right"
+            ]
+        }
     },
-    "column_left": {
-      "template": "layouts/cl.php",
-      "slots": [
-        "left"
-      ]
-    },
-    "column_left_cb": {
-      "template": "layouts/cl-cb.php",
-      "slots": [
-        "left"
-      ]
-    },
-    "column_right": {
-      "template": "layouts/cr.php",
-      "slots": [
-        "right"
-      ]
-    },
-    "column_right_cb": {
-      "template": "layouts/cr-cb.php",
-      "slots": [
-        "right"
-      ]
-    },
-    "full_column_left": {
-      "template": "layouts/full-cl.php",
-      "slots": [
-        "left"
-      ]
-    },
-    "full_column_left_cb": {
-      "template": "layouts/full-cl-cb.php",
-      "slots": [
-        "left"
-      ]
-    },
-    "full_column_right": {
-      "template": "layouts/full-cr.php",
-      "slots": [
-        "right"
-      ]
-    },
-    "full_column_right_cb": {
-      "template": "layouts/full-cr-cb.php",
-      "slots": [
-        "right"
-      ]
-    }
-  },
-  "css": [
-    "public/blog.css",
-    "public/buttons.css",
-    "public/category.css",
-    "public/font.css",
-    "public/form.css",
-    "public/gallery.css",
-    "public/internal-hcm.css",
-    "public/login.css",
-    "public/menu.css",
-    "public/messages.css",
-    "public/posts.css",
-    "public/profile.css",
-    "public/sbox.css",
-    "public/search.css",
-    "public/survey.css",
-    "public/system.css",
-    "public/ulist.css"
-  ],
-  "dark": false,
-  "bbcode.buttons": true,
-  "box.parent": "div",
-  "box.item": "div",
-  "box.title": "h2",
-  "box.title.inside": true
+    "css": [
+        "public/blog.css",
+        "public/buttons.css",
+        "public/category.css",
+        "public/font.css",
+        "public/form.css",
+        "public/gallery.css",
+        "public/internal-hcm.css",
+        "public/login.css",
+        "public/menu.css",
+        "public/messages.css",
+        "public/posts.css",
+        "public/profile.css",
+        "public/sbox.css",
+        "public/search.css",
+        "public/survey.css",
+        "public/system.css",
+        "public/ulist.css"
+    ],
+    "dark": false,
+    "bbcode.buttons": true,
+    "box.parent": "div",
+    "box.item": "div",
+    "box.title": "h2",
+    "box.title.inside": true
 }
