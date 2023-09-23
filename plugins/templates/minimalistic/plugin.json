@@ -2,15 +2,19 @@
     "$schema": "../../../system/schema/template.json",
     "name": "Minimalistic",
     "description": "Minimalist responsive template (Modified version of the template by .::CX::.)",
-	"authors": [
+    "authors": [
         {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
         {"name": ".::CX::."}
     ],
     "version": "1.0.0",
-    "class": "TemplatePlugin",
     "responsive": true,
     "environment": {
         "system": "^8.0"
+    },
+    "config_defaults": {
+        "menu_start": 1,
+        "menu_end": 6,
+        "show_breadcrumbs": false
     },
     "layouts": {
         "default": {
