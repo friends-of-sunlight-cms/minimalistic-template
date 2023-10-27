@@ -67,7 +67,6 @@
 }
 
 .poll-answer .votebutton {
-    float: left;
     clear: both;
     display: block;
 }
