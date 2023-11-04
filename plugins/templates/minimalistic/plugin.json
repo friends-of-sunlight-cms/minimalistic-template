@@ -6,7 +6,7 @@
         {"name": "Friends of Sunlight CMS", "url": "https://github.com/friends-of-sunlight-cms/"},
         {"name": ".::CX::."}
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "responsive": true,
     "environment": {
         "system": "^8.0"
