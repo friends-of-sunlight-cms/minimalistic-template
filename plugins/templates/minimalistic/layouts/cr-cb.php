@@ -9,7 +9,7 @@ require __DIR__ . '/include/header.php';
     <div class="section-content">
         <div class="row">
             <div class="content">
-                <div class="column-left">
+                <div class="cb-column-right">
                     <?= Template::boxes('left') ?>
                 </div>
                 <div class="content-overflow-check">
@@ -22,7 +22,7 @@ require __DIR__ . '/include/header.php';
                         <?= Template::content() ?>
                     </div>
                 </div>
-                <div class="responsive-column-right">
+                <div class="responsive-column-right column-right">
                     <?= Template::boxes('right') ?>
                 </div>
             </div>

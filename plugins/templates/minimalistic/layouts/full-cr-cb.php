@@ -9,7 +9,7 @@ defined('SL_ROOT') or exit;
     <div class="section-content">
         <div class="row">
             <div class="content">
-                <div class="column-right">
+                <div class="cb-column-right">
                     <?= Template::boxes('right') ?>
                 </div>
                 <div class="content-overflow-check">
@@ -22,7 +22,7 @@ defined('SL_ROOT') or exit;
                         <?= Template::content() ?>
                     </div>
                 </div>
-                <div class="responsive-column-right">
+                <div class="responsive-column-right column-right">
                     <?= Template::boxes('right') ?>
                 </div>
             </div>
