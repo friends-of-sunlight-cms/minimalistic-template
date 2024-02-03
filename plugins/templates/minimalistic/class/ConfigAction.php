@@ -41,7 +41,7 @@ class ConfigAction extends BaseConfigAction
             ],
             'show_breadcrumbs' => [
                 'label' => _lang(self::THEME_ID . '.show_breadcrumbs'),
-                'input' => '<input type="checkbox" name="config[show_breadcrumbs]" value="1"' . Form::activateCheckbox($config['show_breadcrumbs']) . '>',
+                'input' => '<input type="checkbox" name="config[show_breadcrumbs]" value="1"' . Form::loadCheckbox('config', $config['show_breadcrumbs'], 'show_breadcrumbs')) . '>',
                 'type' => 'checkbox'
             ],
         ];
